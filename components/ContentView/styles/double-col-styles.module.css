@@ -1,0 +1,21 @@
+.double-col {
+  column-gap: 8px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  max-width: 1376px;
+}
+
+.double-col h1 {
+  grid-column: 2 / 6;
+  margin-bottom: 12px;
+  margin-top: 48px;
+}
+
+.double-col p {
+  margin-bottom: 14px;
+}
+
+.double-col__paragraphs {
+  grid-column: 8 / 12;
+  margin-top: 48px;
+}
