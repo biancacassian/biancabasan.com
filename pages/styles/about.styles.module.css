@@ -1,0 +1,37 @@
+.about {
+  display: flex;
+  justify-content: center;
+}
+
+.about__col-right {
+  grid-column: 9 / 13;
+}
+
+.about__col-left {
+  grid-column: 1 / 7;
+}
+
+.about__border {
+  border-bottom: 1px solid;
+  grid-column: span 12;
+  margin-top: 18px;
+}
+
+.about__image-large,
+.about__image-small,
+.about__col-right,
+.about__col-left {
+  margin-top: 58px;
+}
+
+.about__image-large {
+  grid-column: 1 / 5;
+}
+
+.about__image-small {
+  grid-column: 5 / 7;
+}
+
+.about h1 {
+  font-weight: 400;
+}

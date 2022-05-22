@@ -1,0 +1,109 @@
+.index {
+  background-color: #F4F3EE;
+}
+
+.index__content {
+  column-gap: 8px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin: 0 auto;
+  max-width: 1376px;
+}
+
+.index__content__image {
+  grid-column: 1 / 8;
+}
+
+.index__content__welcome-message {
+  display: flex;
+  flex-direction: column;
+  grid-column: 9 / 13;
+  justify-content: end;
+}
+
+.index__content__welcome-message p {
+  font-family: 'Space Grotesk';
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.index__content__welcome-message p:nth-child(2) {
+  margin-bottom: 0;
+}
+
+.index__content__case-studies-title {
+  font-family: 'Space Grotesk';
+  font-size: 46px;
+  font-weight: 400;
+  grid-column: span 2;
+  grid-row: 2;
+  line-height: 58px;
+  margin-top: 184px;
+}
+
+.index__content__folder-tab {
+  background-color: #ebe7e3;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  grid-column: span 2;
+  grid-row: 3;
+  height: 58px;
+  margin-top: 28px;
+}
+
+.index__content__folder-content {
+  column-gap: 8px;
+  background-color: #ebe7e3;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  border-bottom-left-radius: 12px;
+  grid-column: span 12;
+  height: 678px;
+
+  /* align-items: end; */
+}
+
+.index__content__folder-content__details {
+  grid-column: 1 / 6;
+  margin-top: 64px;
+  padding-left: 48px;
+
+}
+
+.index__content__folder-content__details p {
+  margin-bottom: 8px;
+  padding-left: 24px;
+}
+
+.index__content__folder-content__details p:nth-child(2) {
+  font-size: 26px;
+}
+
+.index__content__folder-content__phone-still {
+  align-self: end;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  grid-column: 7 / 10;
+}
+
+.index__content__folder-content__phone-still__shape {
+  margin-bottom: 24px;
+}
+
+.index__content__folder-content__phone__still,
+.index__content__folder-content__phone__animated {
+  max-width: 266px;
+}
+
+.index__content__folder-content__phone__animated {
+  margin-top: 60px;
+}
+
+.index__content__folder-content__phone-animated {
+  /* align-self: end; */
+  align-items: center;
+  grid-column: 10 / 13;
+}
