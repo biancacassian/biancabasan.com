@@ -15,15 +15,22 @@ const ProjectOverview = (): JSX.Element => {
       <h1 className={contentStyles['content__double-col-left']}>The challenge</h1>
       <div className={contentStyles['content__double-col-right']}>
         <p>In a city like Berlin, booming with cultural opportunities, art museums don't have a concise and centralized place to share their events and exhibitions. Further, there is little to no information about the guides who facilitate the tours for the exhibits.</p>
-        <p>My question is: where can cultural enthusiasts like myself locate a list of all the upcoming exhibitions in Berlin, and how can we make our visit more memorable?</p>
+        <p>My question is: <b>where can cultural enthusiasts like myself locate a list of all the upcoming exhibitions in Berlin, and how can we make our visit more memorable?</b></p>
       </div>
       <h1 className={contentStyles['content__double-col-left']}>The Solution</h1>
       <div className={contentStyles['content__double-col-right']}>
-        <p>Boki -  personalized exhibit discovery</p>
-        <p>Boki is an iOS app providing art enthusiasts with a centralized and frictionless platform for discovering museum exhibitions with a tour guide happening in Berlin based on their interests.</p>
+        <p><b>Boki -  personalized exhibit discovery</b></p>
+        <p>Boki is an iOS app providing art enthusiasts with <b>a centralized and frictionless platform for discovering museum exhibitions with a tour guide happening in Berlin based on their interests.</b></p>
         <p>Boki supports your passion for art and culture by providing personalized recommendations and all the relevant information. With Boki you can make your museum visit more meaningful by attending a tour guide and choosing the guide that speaks to you.</p>
       </div>
       <ImageView image={projectOverview} imageAltText="Project Overview" imageDisplay={ImageDisplay.full}/>
+      <h1 className={contentStyles['content__double-col-left']}>Impact Opportunity</h1>
+      <div className={contentStyles['content__double-col-right']}>
+        <p><b>01.</b> Boki aims to be a centralized and frictionless platform for museum exhibits discovery</p>
+        <p><b>02.</b> Boki aims to bridge the gap between museum visitors and guides</p>
+        <p><b>03.</b> Boki aims is to give a meaningful experience that is tailored to your preferences</p>
+        <p><b>04.</b> Boki aims to highlight the positive mental health benefits of museum visits</p>
+      </div>
     </>
   )
 }

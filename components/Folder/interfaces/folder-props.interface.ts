@@ -5,4 +5,5 @@ export interface FolderProps {
   children: ReactNode;
   header?: string;
   subheader?: string;
+  bokiLogo?: boolean;
 }

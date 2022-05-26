@@ -1,10 +1,10 @@
 import { ImageDisplay } from '../ImageView/interfaces'
 import ImageView from '../ImageView/ImageView'
 import contentStyles from '../ContentView/styles/content.styles.module.css';
-import statistics1 from '../../public/assets/images/content/quantitative/statistics1.jpg';
-import statistics2 from '../../public/assets/images/content/quantitative/statistics2.jpg';
-import statistics3 from '../../public/assets/images/content/quantitative/statistics3.jpg';
-import statistics4 from '../../public/assets/images/content/quantitative/statistics4.jpg';
+import statistics1 from '../../public/assets/images/content/quantitative/statistics1.svg';
+import statistics2 from '../../public/assets/images/content/quantitative/statistics2.svg';
+import statistics3 from '../../public/assets/images/content/quantitative/statistics3.svg';
+import statistics4 from '../../public/assets/images/content/quantitative/statistics4.svg';
 
 const Quantitative = () => {
   return (

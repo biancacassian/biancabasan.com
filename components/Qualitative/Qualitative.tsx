@@ -22,10 +22,10 @@ const Qualitative = (): JSX.Element => {
       </div>
       <h1 className={contentStyles['content__double-col-left']}>Priority problems to solve in this MVP based on interview insights</h1>
       <div className={contentStyles['content__double-col-right']}>
-        <p>01. No option to discover exhibits that are tailored to visitors needs and interest. Museum visitors want to have agency over their choices before making a decision.</p>
-        <p>02. The majority of participants spent some time reading reviews and planning before attending. However, reviews are not always available, leaving participants to wonder whether they made the right decision.</p>
-        <p>03. Having a central platform for discovery, planning and booking, as well as a method of easy and secure payment, are features that all participants regard as desirable.</p>
-        <p>04. The desire for booking on the go, easy and without any friction.</p>
+        <p><b>01.</b> No option to discover exhibits that are tailored to visitors needs and interests. <b>Museum visitors want to have agency over their choices before making a decision.</b></p>
+        <p><b>02.</b> The majority of participants spent some time reading reviews and planning before attending. However, <b>reviews are not always available, leaving participants to wonder whether they made the right decision.</b></p>
+        <p><b>03.</b> Having a <b>central platform for discovery, planning and booking</b>, as well as a method of <b>easy and secure payment</b>, are features that all participants regard as desirable.</p>
+        <p><b>04.</b> The desire for <b>booking on the go, easy and without any friction.</b></p>
       </div>
       <h1 className={contentStyles['content__double-col-left']}>Observation</h1>
       <div className={contentStyles['content__double-col-right']}>

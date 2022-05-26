@@ -1,106 +1,54 @@
-import { ContentViewProps } from "../components/ContentView/interfaces";
-// import SingleColContentView from "../components/ContentView/SingleColContentView";
-// import DoubleColContentView from "../components/ContentView/DoubleColContentView";
-import ContentView from "../components/ContentView/ContentView";
-import { useRouter } from 'next/router';
-// import { 
-//   boki,
-//   discovery,
-//   projectOverview,
-//   empathize,
-//   empathize2,
-//   quantitative
-// } from '../content/boki/boki'
-import Folder from "../components/Folder/Folder";
-import Qualitative from "../components/Qualitative/Qualitative";
-import Define from "../components/Define/Define";
-import UsabilityTesting from "../components/UsabilityTesting/UsabilityTesting";
-import UsabilityTesting2 from "../components/UsabilityTesting2/UsabilityTesting2";
-import Discovery from "../components/Discovery/Discovery";
-import Quantitative from "../components/Quantitative/Quantitative";
-import SuccessMetrics from "../components/SuccessMetrics/SuccessMetrics";
-import BrandingVisualDesign from "../components/BrandingVisualDesign/BrandingVisualDesign";
-import MeetTheApp from "../components/MeetTheApp/MeetTheApp";
-import folderStyles from '../components/Folder/styles/folder.styles.module.css';
-import Ideate from "../components/Ideate/Ideate";
-import ProjectOverview from "../components/ProjectOverview/ProjectOverview";
-import Boki from "../components/Boki/Boki";
+import Link from 'next/link';
+import ImageView from '../components/ImageView/ImageView';
+import contentStyles from '../components/ContentView/styles/content.styles.module.css';
+import indexStyles from './styles/index.styles.module.css';
+import bianca from '../public/assets/images/content/index/bianca.png';
+import caseStudyShapes from '../public/assets/images/content/index/case_study_shapes.svg';
+import caseStudyPhone1 from '../public/assets/images/content/index/case_study_phone1.png';
+import caseStudyPhone2 from '../public/assets/images/content/index/case_study_phone2.gif';
+import Navigation from '../components/Navigation/Navigation';
 
-const BokiCaseStudy = (): JSX.Element => {
-  const router = useRouter()
-  const { locale } = router;
 
-  return <>
-    <ContentView>
-      <Boki/>
-    </ContentView>
-
-    <Folder className={folderStyles['folder__first']} header="Project Overview">
-      <ContentView>
-        <ProjectOverview/>
-      </ContentView>
-    </Folder>
-
-    <Folder header="Discovery" subheader="Competitive Analysis and the App">
-      <ContentView>
-        <Discovery/>
-      </ContentView>
-    </Folder>
-
-    <Folder header="Empathize" subheader="What Is the Real User Need?">
-      <ContentView>
-        <Quantitative/>
-      </ContentView>
-    </Folder>
-
-    <Folder header="Qualitative" subheader="Findings and Insights">
-      <ContentView>
-        <Qualitative/>
-      </ContentView>
-    </Folder>
-  
-    <Folder header="Define" subheader="User Personas">
-      <ContentView>
-        <Define/>
-      </ContentView>
-    </Folder>
-
-    <Folder header="Ideate">
-      <ContentView>
-        <Ideate/>
-      </ContentView>
-    </Folder>
-
-    <Folder header="Usability Testing" subheader="Planning">
-      <ContentView>
-        <UsabilityTesting/>
-      </ContentView>
-    </Folder>
-
-    <Folder header="Usability Testing" subheader="Findings and Insights">
-      <ContentView>
-        <UsabilityTesting2/>
-      </ContentView>
-    </Folder>
-
-    <Folder header="Meet the App">
-      <ContentView>
-        <MeetTheApp/>
-      </ContentView>
-    </Folder>
-
-    <Folder header="Success Metrics">
-      <ContentView>
-        <SuccessMetrics/>
-      </ContentView>
-    </Folder>
-
-    <Folder header="Branding and Visual Design">
-      <ContentView>
-        <BrandingVisualDesign/>
-      </ContentView>
-    </Folder>
-  </>
+const Index = (): JSX.Element => {
+  return (
+    <div className={indexStyles.index}>
+      <Navigation/>
+      <div className={indexStyles['index__content']}>
+        <ImageView className={indexStyles['index__content__image']} image={bianca} imageAltText="Bianca Name"/>
+        <div className={indexStyles['index__content__welcome-message']}>
+          <p>Hi there! I'm a self thought, growth oriented UX/UI designer based in Berlin.</p>
+          <p>As I spend my time on this planet, with the help of design and technology, I hope to improve people's lives and help them do things more enjoyable.</p>
+        </div>
+        <h1 className={indexStyles['index__content__case-studies-title']}>Case Studies</h1>
+        <div className={indexStyles['index__content__folder-tab']}></div>
+        <div className={indexStyles['index__content__folder-content']}>
+          <div className={indexStyles['index__content__folder-content__details']}>
+            <p>UX/UI, BRANDING | COURSE PROJECT | 10-MIN READ </p>
+            <p>How might we create an emotional and personal connections between museum visitors and artifacts?</p>
+            <div className={indexStyles['index__content__folder-content__details__button']}>
+              <a href='case-study'>Read Case Study</a>
+            </div>
+          </div>
+          <div className={indexStyles['index__content__folder-content__phone-still']}>
+            <ImageView className={indexStyles['index__content__folder-content__phone-still__shape']} image={caseStudyShapes} imageAltText="Case Study Shape"/>
+            <ImageView className={indexStyles['index__content__folder-content__phone__still']} image={caseStudyPhone1} imageAltText="Case Study Phone"/>
+          </div>
+          <div className={indexStyles['index__content__folder-content__phone-animated']}>
+            <ImageView className={indexStyles['index__content__folder-content__phone__animated']} image={caseStudyPhone2} imageAltText="Case Study Phone"/>
+          </div>
+        </div>
+        <div className={indexStyles['index__content__divider']}>
+          <hr/>
+        </div>
+        <div className={contentStyles['content__double-col-left']}>
+          <p>I'm glad you stopped by!</p>
+          <p>We can talk about anything design, inclusion and psychology in design, personal development or review each others work.</p>
+          <p>Send me an email at:</p>
+          <p>I’d love to hear from you!</p>
+      </div>
+      </div>
+    </div>
+  )
 }
 
-export default BokiCaseStudy;
+export default Index;

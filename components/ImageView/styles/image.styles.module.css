@@ -30,3 +30,14 @@
   grid-column: 1 / 7;
   margin-top: 48px;
 }
+
+.image-styles__image-description {
+  font-weight: normal;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.image-styles__image-description__centered {
+  font-weight: 700;
+  text-align: center;
+}

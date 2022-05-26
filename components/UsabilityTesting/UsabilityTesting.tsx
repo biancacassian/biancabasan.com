@@ -9,11 +9,11 @@ const UsabilityTesting = (): JSX.Element => {
       <h1 className={contentStyles['content__double-col-left']}>Can booking a museum exhibit be made enjoyable, informative and easy?</h1>
       <div className={contentStyles['content__double-col-right']}>
         <p>I conducted 4 in person usability testing and 1 remote.</p>
-        <p>Participants were asked to perform tasks in a low-fidelity prtototype and with their permission I have recorded it. For the in person test I have used Figma and for remote testing Usaberry.</p>
-        <p>It was important that for the usability testing to have at least 2 of the participant that took part in the user interviews.</p>
+        <p>Participants were asked to perform tasks in a low-fidelity prototype and with their permission I have recorded it. <b>For the in person test I have used Figma and for remote testing Usaberry.</b></p>
+        <p>It was important that for the usability testing to have at least <b>2 of the participant that took part in the user interviews.</b></p>
         <p>All the participants are interested in art and culture and attend museums with tour guides multiple times per year.</p>
       </div>
-      <ImageView image={usabilityTesting} imageAltText="Usability Testing" imageDisplay={ImageDisplay.right}/>
+      <ImageView imageDescription='Remote testing with participant Ana using Userberry' image={usabilityTesting} imageAltText="Usability Testing" imageDisplay={ImageDisplay.right}/>
     </>
   )
 }

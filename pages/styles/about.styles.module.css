@@ -1,6 +1,14 @@
 .about {
-  display: flex;
-  justify-content: center;
+  background-color: #F4F3EE;
+}
+
+.about__navigation {
+  padding-bottom: 0 !important;
+}
+
+.about__wrapper {
+  margin: 0 auto;
+  max-width: 1376px;
 }
 
 .about__col-right {
@@ -25,11 +33,11 @@
 }
 
 .about__image-large {
-  grid-column: 1 / 5;
+  grid-column: 1 / 6;
 }
 
 .about__image-small {
-  grid-column: 5 / 7;
+  grid-column: 6 / 8;
 }
 
 .about h1 {
