@@ -1,0 +1,15 @@
+.navigation {
+  display: flex;
+  gap: 72px;
+  margin: 0 auto;
+  max-width: 1376px;
+  justify-content: flex-end;
+  padding-top: 24px;
+  padding-bottom: 82px;
+}
+
+.navigation__item {
+  font-family: 'Space Grotesk';
+  font-size: 22px;
+  font-weight: 400;
+}

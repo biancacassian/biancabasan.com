@@ -1,0 +1,14 @@
+.case-studies {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin: 0 auto;
+  max-width: 1376px;
+}
+
+.case-studies__navigation {
+  padding-bottom: 24px !important;
+}
+
+.case-studies__hero {
+  grid-column: span 12;
+}

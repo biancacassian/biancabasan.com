@@ -1,0 +1,126 @@
+{
+  "boki": {
+    "context": {
+      "header": "Context",
+      "body": ["Personal passion project done while attending Google UX Design Professional course."]
+    },
+    "timeline": {
+      "header": "Timeline",
+      "body": ["5 months, Sept 2022 - Mar 2022"]
+    },
+    "responsibilities": {
+      "header": "Responsibilities",
+      "body": [
+        "Competitive Analysis",
+        "User Research",
+        "UX/UI Design",
+        "Branding",
+        "Prototyping",
+        "Usability Testing"
+      ]
+    }
+  },
+  "projectOverview": {
+    "experience": {
+      "header": "What is a Good Museum Experience?",
+      "body": [
+        "I wanted to approach my very first case study and journey into the world of UX by tackling a problem I have observed in my environment.",
+        "Coming from an art background and working in cultural institutions such as museums as a tour guide, I noticed the following reactions at the end of a tour:",
+        "\"When is your next tour?\"",
+        "\"Do you know where I can find other interesting exhibits?\"",
+        "\"I feel like I have invested in myself, I have learned a lot today?\""
+      ]
+    },
+    "challenge": {
+      "header": "The Challenge",
+      "body": [
+        "In a city like Berlin, booming with cultural opportunities, art museums don't have a concise and centralized place to share their events and exhibitions. Further, there is little to no information about the guides who facilitates the tours for the exhibits.",
+        "My question is: where can culture enthusiasts like myself locate a list of all the upcoming exhibitions in Berlin, and how can we make our visit more memorable?"
+      ]
+    },
+    "solution": {
+      "header": "The Solution",
+      "body": [
+        "Boki - personalized exhibit discovery",
+        "Boki is an iOS app providing art enthusiasts with a centralized and frictionless platform for discovering museum exhibitions with a tour guide happening in Berlin based on their interests",
+        "Boki supports your passion for art and culture by providing personalized recommendations and all the relevant information. With Boki you can make your museum visit more meaningful by attending a tour guide and choosing the guide that speaks to you."
+      ]
+    },
+    "impactOpportunity": {
+      "header": "Impact Opportunity",
+      "body": [
+        "01. Boki aims to be a centralized and frictionless platform for museum exhibits discovery",
+        "02. Boki aims to bridge the gap between museum visitors and guides",
+        "03. Boki aims to give a meaningful experience that is tailored to your preferences",
+        "04. Boki aims to highlight the positive mental health benefits of museum visits"
+      ]
+    }
+  },
+  "discovery": {
+    "header": "I was pleasantly surprised to find that Boki could fill a gap on the existing cultural and lifestyle market",
+    "body": [
+      "In order to develop Boki, I looked at the current market for finding exhibits and cultural experiences in Berlin",
+      "To identify areas of potential growth and a understanding of competitors' strengths and weaknesses I did a competitive analysis of the 4 most popular apps and sites surrounding cultural event discovery offers for Berlin but not only."
+    ]
+  },
+  "empathize": {
+    "empathize": {
+      "header": "How do you go about finding museum exhibits and how many are interested in tour guides",
+      "body": [
+        "I moved forward with empathizing and discovering the potential users. I wanted to find out how museum visitors feel about being in a museum post covid and how do they go about finding museum exhibits.",
+        "In order to get a better understanding of their behaviors, motivations and pain points I used two research techniques:"
+      ]
+    },
+    "quantitative": {
+      "header": "Quantitative",
+      "body": [
+        "To understand the existing user behaviors for museum exhibits discovery I conducted 30 online surveys to uncover how people go about finding museum exhibits and how many are interested in tour guides?"
+      ]
+    },
+    "qualitative": {
+      "header": "Qualitative",
+      "body": [
+        "The aim of the 1 on 1 interviews was to listen and understand the motivations, needs and uncover areas of improvement for museum visitors.",
+        "The participants age ranged between 29 to 35, based in Berlin or new to the city and one of them suffers from attention deficit disorder.",
+        "Participants are also art enthusiasts who attend museum exhibits regularly and prefer to also attend tours."
+      ]
+    }
+  },
+  "quantitative": {
+    "graph1": {
+      "header": "If you could choose between an in-person tour guide and a virtual/audio tour, which one would you enjoy more? Why is that?"
+    },
+    "graph2": {
+      "header": "Would you be more open to book a tour guide if you knew a little bit more about your tour guide?"
+    },
+    "graph3": {
+      "header": "When visiting an art gallery/museum, what made you want to visit?"
+    },
+    "graph4": {
+      "header": "How do you discover museum/cultural events?"
+    }
+  },
+
+
+
+
+
+  "qualitative": {
+    "section1": {
+      "header": ".",
+      "body": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "section2": {
+      "header": "",
+      "body": []
+    },
+    "section3": {
+      "header": "",
+      "body": []
+    }
+  }
+}

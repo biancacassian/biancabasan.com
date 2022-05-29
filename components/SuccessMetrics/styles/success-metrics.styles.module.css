@@ -1,0 +1,5 @@
+.success-metrics__image {
+  display: flex;
+  justify-content: center;
+  grid-column: 8 / 13;
+}

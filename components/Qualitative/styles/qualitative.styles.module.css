@@ -1,0 +1,12 @@
+.qualitative__quote-box {
+  background-color: var(--quote-box-base-color);
+  border: solid 1px;
+  border-radius: 8px;
+  box-shadow: -14px -14px 0 0 var(--quote-box-shadow-color);
+  margin-top: 32px;
+  padding: 26px;
+}
+
+.qualitative__quote-box p {
+  margin-bottom: 0;
+}

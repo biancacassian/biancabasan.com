@@ -1,0 +1,35 @@
+.ideate__question-box {
+  align-items: center;
+  border: solid 1px;
+  border-radius: 10px;
+  display: flex;
+  padding-right: 48px;
+  padding-left: 48px;
+  min-height: 148px;
+  text-align: center;
+}
+
+.ideate__question-box p {
+  margin-bottom: 0;
+}
+
+.ideate__answer-box {
+  background-color: #F1EFE9;
+  border-radius: 10px;
+  min-height: 428px;
+  padding-right: 48px;
+  padding-left: 32px;
+  padding-top: 32px;
+}
+
+.ideate__answer-box ul li {
+  margin-bottom: 32px;
+}
+
+.ideate__answer-box ul li:last-child {
+  margin-bottom: 0;
+}
+
+.ideate__image {
+  margin-top: 48px;
+}
