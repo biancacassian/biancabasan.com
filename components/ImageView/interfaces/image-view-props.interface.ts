@@ -3,7 +3,7 @@ import { ImageDisplay } from '../interfaces';
 
 export interface ImageViewProps {
   className?: string;
-  image: StaticImageData;
+  image: any;
   imageDescription?: string;
   imageDescriptionUrl?: string;
   centerImageDescription?: boolean;
