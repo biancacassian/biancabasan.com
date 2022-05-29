@@ -30,10 +30,9 @@ jobs:
     - run: yarn build
     - run: yarn export
     
-    - name: Deploy
-      run: |
-        git config --global user.email ${{ secrets.TALEL_GITHUB_EMAIL }}
-        git config --global user.name "taleldayekh"
-        git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-        npm run deploy
-
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@v4.3.3
+      with:
+        GITHUB_TOKEN: ${{ secrets.TALEL_GITHUB_EMAIL }}
+        branch: gh-pages
+        folder: out
