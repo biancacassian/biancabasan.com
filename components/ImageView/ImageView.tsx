@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { ImageViewProps } from './interfaces';
 import imageStyles from './styles/image.styles.module.css';
 
-const customLoader = ({ src }) => {
+const customLoader = ({ src }: any) => {
   return src
 }
 
