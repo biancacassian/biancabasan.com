@@ -1,0 +1,21 @@
+.lessons-learned__try-boki-button {
+  width: 448px;
+  height: 60px;
+  background-color: #713A12;
+  border-radius: 100px;
+  margin: 0 auto;
+  margin-top: 56px;
+  margin-bottom: 64px;
+}
+
+.lessons-learned__try-boki-button a {
+  color: #FFE0C1;
+  font-family: 'Inter', Serif;
+  font-size: 30px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  align-self: center;
+}
