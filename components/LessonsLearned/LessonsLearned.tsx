@@ -3,6 +3,7 @@ import ImageView from '../ImageView/ImageView'
 import contentStyles from '../ContentView/styles/content.styles.module.css';
 import feedback from '../../public/assets/images/content/lessons-learned/lessons-learned-feedback.svg';
 import lessonsLearnedEnd from '../../public/assets/images/content/lessons-learned/lessons-learned-end.png';
+import lessonsLearnedStyles from './styles/lessons-learned.styles.module.css';
 
 const LessonsLearned = (): JSX.Element => {
   return (
@@ -27,6 +28,9 @@ const LessonsLearned = (): JSX.Element => {
         <p>I have really enjoyed <b>the moments where I got to speak to real people</b> and discovered insights that I would have never thought of. </p>
         <p><b>Taking the time to understand the problem and who I was solving it for</b> is one of the most important things I learned.</p>
         <p>Overall this is just the begging of my journey into UX, <b>I would have love for this project to be a collaborative one since I thrive the most being in a team.</b></p>
+        <div className={lessonsLearnedStyles['lessons-learned__try-boki-button']}>
+          <a href="https://www.figma.com/proto/U512Sor87AEv4LL91I1bsR/Untitled?page-id=0%3A1&node-id=1%3A7066&viewport=1235%2C618%2C0.15&scaling=scale-down&starting-point-node-id=1%3A10153" rel="noopener noreferrer" target="_blank">Try Boki</a>
+        </div>
       </div>
       <ImageView image={lessonsLearnedEnd} imageAltText="Lessons Learned" imageDisplay={ImageDisplay.full}/>
     </>
