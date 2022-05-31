@@ -1,5 +1,5 @@
 .lessons-learned__try-boki-button {
-  width: 448px;
+  width: 232px;
   height: 60px;
   background-color: #713A12;
   border-radius: 100px;
@@ -11,7 +11,7 @@
 .lessons-learned__try-boki-button a {
   color: #FFE0C1;
   font-family: 'Inter', Serif;
-  font-size: 30px;
+  font-size: 20px;
   height: 100%;
   display: flex;
   justify-content: center;
