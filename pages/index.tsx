@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import ImageView from '../components/ImageView/ImageView';
 import contentStyles from '../components/ContentView/styles/content.styles.module.css';
 import indexStyles from './styles/index.styles.module.css';
@@ -40,10 +39,11 @@ const Index = (): JSX.Element => {
         <div className={indexStyles['index__content__divider']}>
           <hr/>
         </div>
-        <div className={contentStyles['content__double-col-left']}>
+        <div className={`${contentStyles['content__double-col-left']} ${indexStyles["contact"]}`}>
           <p>I'm glad you stopped by!</p>
           <p>We can talk about anything design, inclusion and psychology in design, personal development or review each others work.</p>
           <p>Send me an email at:</p>
+          <p className={indexStyles["e-mail"]} data-user="nasab.anaoi.acnaib" data-website="moc.liamg"></p>
           <p>I’d love to hear from you!</p>
       </div>
       </div>
