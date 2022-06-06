@@ -1,5 +1,15 @@
+.lessons-learned__quote-box {
+  background-color: var(--quote-box-base-color);
+  border: solid 1px;
+  border-radius: 8px;
+  box-shadow: -14px -14px 0 0 var(--quote-box-shadow-color);
+  margin-top: 38px;
+  margin-bottom: 32px;
+  padding: 26px;
+}
+
 .lessons-learned__try-boki-button {
-  width: 232px;
+  width: 448px;
   height: 60px;
   background-color: #713A12;
   border-radius: 100px;
@@ -11,7 +21,7 @@
 .lessons-learned__try-boki-button a {
   color: #FFE0C1;
   font-family: 'Inter', Serif;
-  font-size: 20px;
+  font-size: 30px;
   height: 100%;
   display: flex;
   justify-content: center;
