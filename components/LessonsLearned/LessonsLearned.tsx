@@ -3,7 +3,7 @@ import ImageView from '../ImageView/ImageView'
 import contentStyles from '../ContentView/styles/content.styles.module.css';
 import feedback from '../../public/assets/images/content/lessons-learned/lessons-learned-feedback.svg';
 import lessonsLearnedEnd from '../../public/assets/images/content/lessons-learned/lessons-learned-end.png';
-import lessonsLearnedStyles from './styles/lessons-learned.styles.module.css';
+import lessonsLearnedStyles from './lessons-learned.styles.module.css';
 
 const LessonsLearned = (): JSX.Element => {
   return (
