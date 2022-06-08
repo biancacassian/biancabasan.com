@@ -141,7 +141,8 @@
   font-weight: 600;
 }
 
-.contact p {
+.contact p,
+.contact a {
   font-family: 'Space Grotesk';
   font-size: 21px;
 }
@@ -149,4 +150,8 @@
 .contact p:first-child {
   font-family: 'Space Grotesk';
   font-size: 30px;
+}
+
+.contact p:last-child {
+  margin-top: 18px;
 }
