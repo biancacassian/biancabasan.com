@@ -43,7 +43,7 @@ const Index = (): JSX.Element => {
           <p>I'm glad you stopped by!</p>
           <p>We can talk about anything design, inclusion and psychology in design, personal development or review each others work.</p>
           <p>Send me an email at:</p>
-          <p className={indexStyles["e-mail"]} data-user="nasab.anaoi.acnaib" data-website="moc.liamg"></p>
+          <a href='mailto:bianca.ioana.basan@gmail.com' className={indexStyles["e-mail"]} data-user="nasab.anaoi.acnaib" data-website="moc.liamg"></a>
           <p>I’d love to hear from you!</p>
       </div>
       </div>
