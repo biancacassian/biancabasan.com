@@ -11,7 +11,7 @@ const LessonsLearned = (): JSX.Element => {
       <h1 className={contentStyles['content__double-col-left']}>Even though this is a course project I reached out to a developer and asked for feedback</h1>
       <div className={contentStyles['content__double-col-right']}>
         <p>Working closely with a developer will be a crucial part of implementing the app.</p>
-        <p>I was curious to receive feedback on <b>how a developer wold perceive having my designs handed over.</b></p>
+        <p>I was curious to receive feedback on <b>how a developer would perceive having my designs handed over.</b></p>
         <p>Here is his response:</p>
         <div className={lessonsLearnedStyles['lessons-learned__quote-box']}>
           <p><b>"Bianca's mockups leaves few questions unanswered. All elements are clearly laid out and the prototype shows the expected behavior of each screen. For a developer it is just a matter of picking up the design and only worry about how to implement it in code!"</b> - Talel, Software Developer</p>
