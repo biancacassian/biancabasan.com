@@ -90,6 +90,17 @@
   margin-top: 72px;
 }
 
+.index__content__folder-content__details__button:hover {
+  background-color: #242323;
+  border-radius: 100px;
+  height: 50px;
+  width: 234px;
+  margin-left: 24px;
+  margin-top: 72px;
+  transform: translateY(-4px);
+  filter: drop-shadow(1px 10px 4px rgba(36, 35, 35, .2));
+}
+
 .index__content__folder-content__details__button a {
   color: #fff;
   font-family: 'Inter', Serif;
