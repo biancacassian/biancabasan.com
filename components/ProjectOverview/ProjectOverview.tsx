@@ -9,7 +9,7 @@ const ProjectOverview = (): JSX.Element => {
       <h1 className={contentStyles['content__double-col-left']}>What is a Good Museum Experience?</h1>
       <div className={contentStyles['content__double-col-right']}>
         <p>I wanted to approach my very first case study and journey into the world of UX by tackling a problem I have observed in my environment.</p>
-        <p>Coming from an art background and working in cultural institutions such as museum as a tour guide I have noticed the following reactions after the end of a tour:</p>
+        <p>Coming from an art background and working in cultural institutions such as museums as a tour guide I have noticed the following reactions after the end of a tour:</p>
         <p>“When is your next tour? Do you know where I can find other interesting exhibits? I felt like I have invested in myself today, I have learned a lot today!”</p>
       </div>
       <h1 className={contentStyles['content__double-col-left']}>The challenge</h1>
