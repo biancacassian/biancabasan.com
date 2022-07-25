@@ -77,8 +77,13 @@
   padding-left: 24px;
 }
 
-.index__content__folder-content__details p:nth-child(2) {
+.index__content__folder-content__details p:nth-child(1) {
+  font-size: 25px;
+}
+
+.index__content__folder-content__details p:nth-child(3) {
   font-size: 26px;
+  padding-top: 6px;
 }
 
 .index__content__folder-content__details__button {

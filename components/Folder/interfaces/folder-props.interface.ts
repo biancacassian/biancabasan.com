@@ -6,4 +6,5 @@ export interface FolderProps {
   header?: string;
   subheader?: string;
   bokiLogo?: boolean;
+  id?: string;
 }

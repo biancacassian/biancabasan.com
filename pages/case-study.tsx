@@ -38,7 +38,7 @@ const BokiCaseStudy = (): JSX.Element => {
 
   return <>
     <Navigation className={caseStudiesStyles['case-studies__navigation']}/>
-    <div className={caseStudiesStyles['case-studies']}>
+    <div id="bokiStart" className={caseStudiesStyles['case-studies']}>
       <div className={caseStudiesStyles['case-studies__hero']}>
         <ImageView image={hero} imageAltText="Boki"/>
       </div>
@@ -103,7 +103,7 @@ const BokiCaseStudy = (): JSX.Element => {
       </ContentView>
     </Folder>
 
-    <Folder header="Meet the App">
+    <Folder id="meetTheApp" header="Meet the App">
       <ContentView>
         <MeetTheApp/>
       </ContentView>
@@ -121,11 +121,14 @@ const BokiCaseStudy = (): JSX.Element => {
       </ContentView>
     </Folder>
 
-    <Folder header="Lessons Learned and Next Steps">
+    <Folder id="devFeedback" header="Lessons Learned and Next Steps">
       <ContentView>
         <LessonsLearned/>
       </ContentView>
     </Folder>
+    <div className={caseStudiesStyles['case-studies__scroll-up-button']}>
+      <a href="#bokiStart" rel="noopener noreferrer">&#11105;</a>
+    </div>
   </>
 }
 

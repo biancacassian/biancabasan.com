@@ -21,11 +21,21 @@
 .lessons-learned__try-boki-button a {
   color: #FFE0C1;
   font-family: 'Inter', Serif;
-  font-size: 30px;
+  font-size: 25px;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex: 1;
   align-self: center;
+}
+
+.lessons-learned__try-boki-button:hover {
+  background-color: #fefcf8;
+  color: #713A12;
+  border: solid 1px #713A12;
+}
+
+.lessons-learned__try-boki-button a:hover {
+  color: #713A12;
 }

@@ -1,3 +1,63 @@
 .boki h1 {
   margin-bottom: 12px;
 }
+
+.boki__meet-button {
+  max-width: 448px;
+  height: 60px;
+  background-color: #713A12;
+  border-radius: 100px;
+  margin-top: 56px;
+}
+
+.boki__meet-button a {
+  color: #FFE0C1;
+  font-family: 'Inter', Serif;
+  font-size: 20px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  align-self: center;
+}
+
+.boki__meet-button:hover {
+  background-color: #fefcf8;
+  color: #713A12;
+  border: solid 1px #713A12;
+}
+
+.boki__meet-button a:hover {
+  color: #713A12;
+}
+
+.boki__developer-button {
+  max-width: 448px;
+  height: 60px;
+  background-color: #fefcf8;
+  border-radius: 100px;
+  margin-top: 21px;
+  margin-bottom: 64px;
+  border: solid 1px #713A12;
+}
+
+.boki__developer-button a {
+  color: #713A12;
+  font-family: 'Inter', Serif;
+  font-size: 20px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  align-self: center;
+}
+
+.boki__developer-button:hover {
+  background-color: #713A12;
+}
+
+.boki__developer-button a:hover {
+  color: #FFE0C1;
+}

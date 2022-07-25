@@ -20,7 +20,6 @@ const ProjectOverview = (): JSX.Element => {
       <h1 className={contentStyles['content__double-col-left']}>The Solution</h1>
       <div className={contentStyles['content__double-col-right']}>
         <p><b>Boki -  personalized exhibit discovery</b></p>
-        <p>Boki is an iOS app providing art enthusiasts with <b>a centralized and frictionless platform for discovering museum exhibitions with a tour guide happening in Berlin based on their interests.</b></p>
         <p>Boki supports your passion for art and culture by providing personalized recommendations and all the relevant information. With Boki you can make your museum visit more meaningful by attending a tour guide and choosing the guide that speaks to you.</p>
       </div>
       <ImageView image={projectOverview} imageAltText="Project Overview" imageDisplay={ImageDisplay.full}/>
