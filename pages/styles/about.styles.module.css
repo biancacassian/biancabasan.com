@@ -56,6 +56,6 @@
   font-weight: 600;
 }
 
-.about a:hover {
+.about__link:hover {
   text-decoration: underline;
 }

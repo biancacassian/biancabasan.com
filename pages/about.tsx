@@ -38,7 +38,7 @@ const About = (): JSX.Element => {
             <h1 className={aboutStyles['about__col-left']}>I'm keeping an eye on this digital product</h1>
             <div className={aboutStyles['about__col-right']}>
               <p>A product that I recommend to my friends is <b>OKU</b>, a social network for reading lovers.  I love the clean and the simplicity of the interface and that I can have a say and vote for upcoming features to be implemented.</p>
-              <p><a href="https://oku.club/user/BiancaBasan" rel="noopener noreferrer" target="_blank">Here is my profile</a>, let's share books!</p>
+              <p><a className={aboutStyles["about__link"]} href="https://oku.club/user/BiancaBasan" rel="noopener noreferrer" target="_blank">Here is my profile</a>, let's share books!</p>
             </div>
 
             <div className={aboutStyles['about__border']}/>
@@ -46,7 +46,7 @@ const About = (): JSX.Element => {
             <div className={aboutStyles['about__col-right']}>
               <p>We can talk about anything design, inclusion and psychology in design, personal development or review each others work.</p>
               <p>Send me an email at:</p>
-              <a href='mailto:bianca.ioana.basan@gmail.com' className={aboutStyles["e-mail"]} data-user="nasab.anaoi.acnaib" data-website="moc.liamg"></a>
+              <a href='mailto:bianca.ioana.basan@gmail.com' className={`${aboutStyles["e-mail"]} ${aboutStyles["about__link"]}`} data-user="nasab.anaoi.acnaib" data-website="moc.liamg"></a>
               <p>I’d love to hear from you!</p>
             </div>
           </ContentView>
