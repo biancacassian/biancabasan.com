@@ -22,7 +22,7 @@ const ProjectOverview = (): JSX.Element => {
         <p><b>Boki -  personalized exhibit discovery</b></p>
         <p>Boki supports your passion for art and culture by providing personalized recommendations and all the relevant information. With Boki you can make your museum visit more meaningful by attending a tour guide and choosing the guide that speaks to you.</p>
       </div>
-      <ImageView image={projectOverview} imageAltText="Project Overview" imageDisplay={ImageDisplay.full}/>
+      <ImageView image={projectOverview} imageAltText="Project Overview" imageDisplay={ImageDisplay.full} />
       <h1 className={contentStyles['content__double-col-left']}>Impact Opportunity</h1>
       <div className={contentStyles['content__double-col-right']}>
         <p><b>01.</b> Boki aims to be a centralized and frictionless platform for museum exhibits discovery</p>

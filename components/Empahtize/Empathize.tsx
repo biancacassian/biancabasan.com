@@ -6,7 +6,7 @@ const Empathize = (): JSX.Element => {
     <>
       <h1 className={contentStyles['content__double-col-left']}>How do you go about finding museum exhibits and how many are interested in tour guides?</h1>
       <div className={contentStyles['content__double-col-right']}>
-        <p>I moved forward with empahtizing and discovering the potential users. I wanted to find out how museum visitors feel about being in a museum post covid and how do they go about finding museum exhibits.</p>
+        <p>I moved forward with empathizing and discovering the potential users. I wanted to find out how museum visitors feel about being in a museum post covid and how do they go about finding museum exhibits.</p>
         <p>In order to get a better understanding of their behaviors, motivations and pain points <b>I used two research techniques:</b></p>
       </div>
       <div className={`${contentStyles['content__double-col-right']} ${empathizeStyles['empathize__col']}`}>

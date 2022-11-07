@@ -37,93 +37,93 @@ const BokiCaseStudy = (): JSX.Element => {
   const { locale } = router;
 
   return <>
-    <Navigation className={caseStudiesStyles['case-studies__navigation']}/>
+    <Navigation className={caseStudiesStyles['case-studies__navigation']} />
     <div id="bokiStart" className={caseStudiesStyles['case-studies']}>
       <div className={caseStudiesStyles['case-studies__hero']}>
-        <ImageView image={hero} imageAltText="Boki"/>
+        <ImageView image={hero} imageAltText="Boki" />
       </div>
     </div>
     <Folder bokiLogo>
       <ContentView>
-        <Boki/>
+        <Boki />
       </ContentView>
-      </Folder>
+    </Folder>
 
     <Folder header="Project Overview">
       <ContentView>
-        <ProjectOverview/>
+        <ProjectOverview />
       </ContentView>
     </Folder>
 
     <Folder header="Discovery" subheader="Competitive Analysis and the Gap">
       <ContentView>
-        <Discovery/>
+        <Discovery />
       </ContentView>
     </Folder>
 
     <Folder header="Empathize" subheader="What is the Real User Need?">
       <ContentView>
-        <Empathize/>
+        <Empathize />
       </ContentView>
     </Folder>
 
     <Folder header="Quantitative" subheader="Findings and Insights">
       <ContentView>
-        <Quantitative/>
+        <Quantitative />
       </ContentView>
     </Folder>
 
     <Folder header="Qualitative" subheader="Findings and Insights">
       <ContentView>
-        <Qualitative/>
+        <Qualitative />
       </ContentView>
     </Folder>
-  
+
     <Folder header="Define" subheader="User Personas">
       <ContentView>
-        <Define/>
+        <Define />
       </ContentView>
     </Folder>
 
     <Folder header="Ideate">
       <ContentView>
-        <Ideate/>
+        <Ideate />
       </ContentView>
     </Folder>
 
     <Folder header="Usability Testing" subheader="Planning">
       <ContentView>
-        <UsabilityTesting/>
+        <UsabilityTesting />
       </ContentView>
     </Folder>
 
     <Folder header="Usability Testing" subheader="Findings and Insights">
       <ContentView>
-        <UsabilityTesting2/>
+        <UsabilityTesting2 />
       </ContentView>
     </Folder>
 
     <Folder id="meetTheApp" header="Meet the App">
       <ContentView>
-        <MeetTheApp/>
+        <MeetTheApp />
       </ContentView>
     </Folder>
 
     <Folder header="Success Metrics">
       <ContentView>
-        <SuccessMetrics/>
+        <SuccessMetrics />
       </ContentView>
     </Folder>
 
     <Folder header="Branding and Visual Design">
       <ContentView>
-        <BrandingVisualDesign/>
+        <BrandingVisualDesign />
       </ContentView>
     </Folder>
 
     <Folder id="devFeedback" header="Lessons Learned and Next Steps">
       <ContentView>
-        <LessonsLearned/>
+        <LessonsLearned />
       </ContentView>
     </Folder>
     <div className={caseStudiesStyles['case-studies__scroll-up-button']}>
