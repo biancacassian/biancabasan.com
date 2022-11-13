@@ -12,3 +12,7 @@
 .empathize__col a:hover {
   text-decoration: underline;
 }
+
+.dummy {
+  color: orange;
+}
