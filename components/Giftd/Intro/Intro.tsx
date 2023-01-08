@@ -11,20 +11,20 @@ const Intro = (): JSX.Element => {
                 <h1>Timeline</h1>
                 <p>July 2022 - ongoing</p>
                 <h1>Team</h1>
-                <p>1 UX/UI designer - Me, 1 founder, 1 co founder and CTO</p>
+                <p>1 UX/UI Designer - Me, 1 Founder, 1 Co Founder and CTO</p>
             </div>
             <h1 className={contentStyles['content__double-col-left']}>Responsibilities</h1>
             <div className={`${contentStyles['content__double-col-right']} ${empathizeStyles['empathize__col']}`}>
                 <p>My involvement with Giftd started in July and it is ongoing, since then I have been taking on a couple of challenges.</p>
                 <p>As the sole UX/UI designer I am responsible for ​​improving existing flows, working on new features, initial discovery and iterate design solutions at all levels of fidelity. <b>In this case study I will talk about how I approached challenges such as:</b></p>
                 <p><b>01.</b> Optimizing and iterating on the onboarding flow</p>
-                <p><b>02.</b> Designing a filtering option</p>
-                <p><b>01.</b> Designing the delivery feature</p>
+                <p><b>02.</b> Designing the first filtering option</p>
+                <p><b>03.</b> Designing the delivery feature</p>
             </div>
             <h1 className={contentStyles['content__double-col-left']}>My mission & personal aims</h1>
             <div className={`${contentStyles['content__double-col-right']} ${empathizeStyles['empathize__col']}`}>
                 <p><b>Improve the app experience and impact the number of people joining and making clothes transactions.</b></p>
-                <p>Since joining Giftd as a volunteer, I had three key personal goals that I wanted to learn and improve on:</p>
+                <p>It is a blast to contribute to the growth of the product as this is my first time working on a real product that people use and find value in it. Since joining Giftd, I have set for myself three key goals that I want to learn and improve on:</p>
                 <div>
                     <ul>
                         <li><p>Be in an environment in which we will build and implement quickly</p></li>
@@ -37,7 +37,7 @@ const Intro = (): JSX.Element => {
                 </div>
                 <div>
                     <ul>
-                        <li><p>Learning to be adaptable with the workflow</p></li>
+                        <li><p>Gaining experience working in a cross-functional team and learning to be adaptable with the workflow</p></li>
                     </ul>
                 </div>
             </div>
