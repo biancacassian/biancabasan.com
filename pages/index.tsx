@@ -16,8 +16,8 @@ const Index = (): JSX.Element => {
       <div className={indexStyles['index__content']}>
         <ImageView className={indexStyles['index__content__image']} image={bianca} imageAltText="Bianca Name" />
         <div className={indexStyles['index__content__welcome-message']}>
-          <p>Hi there! I'm a growth oriented UX/UI designer based in Berlin.</p>
-          <p>As I spend my time on this planet, with the help of design and technology, I hope to improve people's lives and help them do things more enjoyable.</p>
+          <p>Hello, I'm a growth oriented UX/UI designer based in Berlin.</p>
+          <p>As I spend my time on this planet, I use design and technology to create impactful digital experiences that benefit people, businesses and our planet.</p>
         </div>
         <h1 className={indexStyles['index__content__case-studies-title']}>Case Studies</h1>
 
