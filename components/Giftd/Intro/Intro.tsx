@@ -12,7 +12,7 @@ const Intro = (): JSX.Element => {
                 <p>Giftd is an app, available on iOS and android, through which you can gift your pre-loved clothes to friends, family and neighbors. More than 3600 downloads and over 2000 gifts have been made since it started in November 2021.</p>
                 <p>Take a look - <a href="https://www.giftd.app/" target="_blank" rel="noopener noreferrer">www.giftd.app</a></p>
                 <h1>Timeline</h1>
-                <p>July 2022 - ongoing</p>
+                <p>Sept 2022 - ongoing</p>
                 <h1>Team</h1>
                 <p>1 UX/UI Designer - Me, 1 Founder, 1 Co Founder and CTO</p>
             </div>
