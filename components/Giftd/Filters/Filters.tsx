@@ -2,7 +2,7 @@ import contentStyles from '../../ContentView/styles/content.styles.module.css';
 import empathizeStyles from './styles/filters.styles.module.css';
 import { ImageDisplay } from '../../ImageView/interfaces'
 import ImageView from '../../ImageView/ImageView'
-import filters from '../../../public/assets/images/giftd/filters.png';
+import filters from '../../../public/assets/images/giftd/filters.jpg';
 
 const Filters = (): JSX.Element => {
     return (
@@ -14,7 +14,7 @@ const Filters = (): JSX.Element => {
                 <p>I was excited to design the filtering options and have users use it, but <b>after only one week users began to contact us with concerns: "I think there is a bug since I can't see anything when I am filtering."</b></p>
                 <p>When designing the mockups, I failed to take user journeys and flows into account. I didn't think about edge cases such as: what would the user see if they tried to filter just by friends but didn't have any? With the current solution users will be encountered by an empty screen with no visual guidance, which causes confusion.</p>
             </div>
-            <ImageView className={empathizeStyles['sync-contacts']} image={filters} imageAltText="Filters" imageDisplay={ImageDisplay.full} />
+            <ImageView className={empathizeStyles['sync-contacts']} image={filters} imageAltText="Filters" imageDisplay={ImageDisplay.full} imageDescription={"Design explorations"} />
             <div className={`${contentStyles['content__double-col-right']} ${empathizeStyles['empathize__col']}`}>
                 <p>As a potential solution I would have added text to the empty screen directing the user back to the filtering options. The text would be written in a friendly tone, indicating why the screen is blank and what to do next.</p>
             </div>

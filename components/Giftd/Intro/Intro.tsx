@@ -1,5 +1,8 @@
 import contentStyles from '../../ContentView/styles/content.styles.module.css';
 import empathizeStyles from './styles/intro.styles.module.css';
+import ImageView from '../../ImageView/ImageView'
+import { ImageDisplay } from '../../ImageView/interfaces'
+import intro from '../../../public/assets/images/giftd/intro.jpg';
 
 const Intro = (): JSX.Element => {
     return (
@@ -41,6 +44,7 @@ const Intro = (): JSX.Element => {
                     </ul>
                 </div>
             </div>
+            <ImageView className={empathizeStyles['giftd-intro-img']} image={intro} imageAltText="Research" imageDisplay={ImageDisplay.full} />
         </>
     )
 }

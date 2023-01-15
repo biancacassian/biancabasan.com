@@ -3,6 +3,10 @@
   font-size: 22px;
 }
 
+.empathize__col {
+  margin-bottom: 40px;
+}
+
 .empathize__col h1:last-of-type {
   margin-bottom: 12px;
   margin-top: 38px;

@@ -9,6 +9,9 @@ import Onboarding from "../components/Giftd/Onboarding/Onboarding";
 import Research from "../components/Giftd/Research/Research";
 import IdeatingSketching from "../components/Giftd/IdeatingSketching/IdeatingSketching";
 import Filters from "../components/Giftd/Filters/Filters";
+import Delivery from '../components/Giftd/Delivery/Delivery';
+import Discovery from '../components/Giftd/Discovery/Discovery';
+import WorkingWithOthers from '../components/Giftd/WorkingWithOthers/WorkingWithOthers';
 import hero from '../public/assets/images/giftd/hero.jpg';
 
 const GiftdCaseStudy = (): JSX.Element => {
@@ -48,6 +51,21 @@ const GiftdCaseStudy = (): JSX.Element => {
         <Folder header="Filters">
             <ContentView>
                 <Filters />
+            </ContentView>
+        </Folder>
+        <Folder header="Delivery Feature">
+            <ContentView>
+                <Delivery />
+            </ContentView>
+        </Folder>
+        <Folder header="Discovery">
+            <ContentView>
+                <Discovery />
+            </ContentView>
+        </Folder>
+        <Folder header="Working With Others">
+            <ContentView>
+                <WorkingWithOthers />
             </ContentView>
         </Folder>
         <div className={caseStudiesStyles['case-studies__scroll-up-button']}>

@@ -126,10 +126,19 @@
   height: 100%;
 } */
 
-.giftd-phone {
-  grid-column: 6 / 11;
+.giftd-phone-messages {
+  max-width: 90%;
+  grid-column: 6 / 10;
   grid-row: 1 / 2;
-  margin-top: 80px;
+  margin-top: 390px;
+  z-index: 11;
+}
+
+.giftd-phone {
+  max-width: 90%;
+  grid-column: 9 / 12;
+  grid-row: 1 / 2;
+  margin-top: 40px;
 }
 
 .index__content__folder-content__phone-still__shape {

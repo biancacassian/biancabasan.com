@@ -5,7 +5,8 @@ import bianca from '../public/assets/images/content/index/bianca.png';
 import caseStudyShapes from '../public/assets/images/content/index/case_study_shapes.svg';
 import caseStudyPhone1 from '../public/assets/images/content/index/case_study_phone1.png';
 import caseStudyPhone2 from '../public/assets/images/content/index/case_study_phone2.gif';
-import giftdPhone from '../public/assets/images/giftd/giftd-phone.png';
+import giftdPhone from '../public/assets/images/giftd/giftd-intro.gif';
+import giftdPhoneMessages from '../public/assets/images/giftd/giftd-phone-messages.svg';
 import Navigation from '../components/Navigation/Navigation';
 
 
@@ -26,13 +27,14 @@ const Index = (): JSX.Element => {
           <div className={indexStyles['index__content__folder-content']}>
             <div className={indexStyles['index__content__folder-content__details']}>
               <p>Giftd</p>
-              <p>UX/UI | 5-MIN READ </p>
+              <p>UX/UI | INTERNSHIP </p>
               <p>How might we improve the app experience and impact the number of people joining and making clothes transactions?</p>
               <div className={indexStyles['index__content__folder-content__details__button']}>
                 <a href='/giftd'>Read Case Study</a>
               </div>
             </div>
             {/* <div className={indexStyles['index__content__folder-content__phone-still__giftd']}> */}
+            <ImageView className={indexStyles['giftd-phone-messages']} image={giftdPhoneMessages} imageAltText="Case Study Phone" />
             <ImageView className={indexStyles['giftd-phone']} image={giftdPhone} imageAltText="Case Study Phone" />
             {/* </div> */}
           </div>
@@ -43,7 +45,7 @@ const Index = (): JSX.Element => {
           <div className={indexStyles['index__content__folder-content']}>
             <div className={indexStyles['index__content__folder-content__details']}>
               <p>BOKI</p>
-              <p>UX/UI, BRANDING | COURSE PROJECT | 10-MIN READ </p>
+              <p>UX/UI | BRANDING | COURSE PROJECT</p>
               <p>How might we create an emotional and personal connections between museum visitors and artifacts?</p>
               <div className={indexStyles['index__content__folder-content__details__button']}>
                 <a href='/case-study'>Read Case Study</a>
@@ -64,7 +66,7 @@ const Index = (): JSX.Element => {
           <hr />
         </div>
         <div className={`${contentStyles['content__double-col-left']} ${indexStyles["contact"]}`}>
-          <p>I'm glad you stopped by!</p>
+          <p>Let's cross paths!</p>
           <p>We can talk about anything design, inclusion and psychology in design, personal development or review each others work.</p>
           <p>Send me an email at:</p>
           <a href='mailto:bianca.ioana.basan@gmail.com' className={indexStyles["e-mail"]} data-user="nasab.anaoi.acnaib" data-website="moc.liamg"></a>

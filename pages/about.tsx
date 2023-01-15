@@ -17,7 +17,7 @@ const About = (): JSX.Element => {
             <div className={aboutStyles['about__col-right']}>
               <p>For me design is a way to connect with the world and be a bridge between what we understand about the human being, its capabilities and technology. </p>
               <p>What excites me about product design is that it lies at the intersection of human behavior, design and engineering.</p>
-              <p>What motivates me about design is its collaborative and iterative approach to solving problems, as well as helping others (and myself) to do things more efficiently and become better every day.</p>
+              <p>What motivates me about field is its collaborative and iterative approach to solving problems, as well as helping others (and myself) to do things more efficiently and become better every day.</p>
               <p>Personally, I enjoy the way our emotions and memories are linked with specific technologies. I still remember my first iPod, it was green, and I couldn’t imagine that I had all my playlist in one place, always with me. Maybe you had one too, what color was yours? </p>
             </div>
             <div className={aboutStyles['about__border']} />
@@ -42,7 +42,7 @@ const About = (): JSX.Element => {
             </div>
 
             <div className={aboutStyles['about__border']} />
-            <h1 className={aboutStyles['about__col-left']}>I'm glad you stopped by!</h1>
+            <h1 className={aboutStyles['about__col-left']}>Let's cross paths!</h1>
             <div className={aboutStyles['about__col-right']}>
               <p>We can talk about anything design, inclusion and psychology in design, personal development or review each others work.</p>
               <p>Send me an email at:</p>
