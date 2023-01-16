@@ -2,7 +2,7 @@ import contentStyles from '../../ContentView/styles/content.styles.module.css';
 import empathizeStyles from './styles/working-with-others.styles.module.css';
 import { ImageDisplay } from '../../ImageView/interfaces'
 import ImageView from '../../ImageView/ImageView'
-import mockUps from '../../../public/assets/images/giftd/mock-ups-update.svg';
+import mockUps from '../../../public/assets/images/giftd/mock-ups-update.jpg';
 
 const Filters = (): JSX.Element => {
     return (

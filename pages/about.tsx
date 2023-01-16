@@ -16,7 +16,7 @@ const About = (): JSX.Element => {
             <ImageView className={aboutStyles['about__image-small']} image={biancaSmall} imageAltText="Bianca Small" />
             <div className={aboutStyles['about__col-right']}>
               <p>For me design is a way to connect with the world and be a bridge between what we understand about the human being, its capabilities and technology. </p>
-              <p>What excites me about product the field is that it lies at the intersection of human behavior, design and engineering.</p>
+              <p>What excites me about the field is that it lies at the intersection of human behavior, design and engineering.</p>
               <p>What motivates me about design is its collaborative and iterative approach to solving problems, as well as helping others (and myself) to do things more efficiently and become better every day.</p>
               <p>Personally, I enjoy the way our emotions and memories are linked with specific technologies. I still remember my first iPod, it was green, and I couldn’t imagine that I had all my playlist in one place, always with me. Maybe you had one too, what color was yours? </p>
             </div>
