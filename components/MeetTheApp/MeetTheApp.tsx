@@ -18,10 +18,10 @@ const MeetTheApp = (): JSX.Element => {
   return (
     <>
       <h1 className={meetTheAppStyles['meet-the-app__intro']}>I’m Boki, lets find you a meaningful experience!</h1>
-      <ImageView 
+      <ImageView
         className={meetTheAppStyles['meet-the-app__hero']}
-        image={meetTheAppHero} 
-        imageAltText="Meet the App" 
+        image={meetTheAppHero}
+        imageAltText="Meet the App"
         imageDisplay={ImageDisplay.full}
       />
       <div className={`${contentStyles['content__double-col-left']} ${meetTheAppStyles['meet-the-app__section-details']}`}>
@@ -29,8 +29,8 @@ const MeetTheApp = (): JSX.Element => {
         <p>As a first time user of the app, onboarding will help narrowing down the options available, offering recommendations that would feel like a personal recommendation from a friend who knows you well.</p>
       </div>
       <div className={meetTheAppStyles['meet-the-app__images-container']}>
-        <ImageView className={meetTheAppStyles['meet-the-app__test']} image={animated1} imageAltText="Meet the App" imageDisplay={ImageDisplay.inline}/>
-        <ImageView className={meetTheAppStyles['meet-the-app__test']} image={still1} imageAltText="Meet the App" imageDisplay={ImageDisplay.inline}/>
+        <ImageView className={meetTheAppStyles['meet-the-app__test']} image={animated1} imageAltText="Meet the App" imageDisplay={ImageDisplay.inline} />
+        <ImageView className={meetTheAppStyles['meet-the-app__test']} image={still1} imageAltText="Meet the App" imageDisplay={ImageDisplay.inline} />
       </div>
       <p className={meetTheAppStyles['meet-the-app__images-description']}>Participants appreciated that <b>accessibility considerations were taken into account</b></p>
       <div className={`${contentStyles['content__double-col-left']} ${meetTheAppStyles['meet-the-app__section-details']}`}>
@@ -39,25 +39,25 @@ const MeetTheApp = (): JSX.Element => {
         <p>Easily edit topics already selected or use the in-depth filters to have more control over your discoverability.</p>
       </div>
       <div className={meetTheAppStyles['meet-the-app__images-container']}>
-        <ImageView className={meetTheAppStyles['meet-the-app__test']} image={animated2} imageAltText="Meet the App" imageDisplay={ImageDisplay.inline}/>
-        <ImageView className={meetTheAppStyles['meet-the-app__test']} image={still2} imageAltText="Meet the App" imageDisplay={ImageDisplay.inline}/>
+        <ImageView className={meetTheAppStyles['meet-the-app__test']} image={animated2} imageAltText="Meet the App" imageDisplay={ImageDisplay.inline} />
+        <ImageView className={meetTheAppStyles['meet-the-app__test']} image={still2} imageAltText="Meet the App" imageDisplay={ImageDisplay.inline} />
       </div>
       <div className={`${contentStyles['content__double-col-left']} ${meetTheAppStyles['meet-the-app__section-details']}`}>
         <h1>Exhibition & Museum Info</h1>
-        <p>The museum card gives you easy access to reviews of both the exhibition and the guide.</p> 
+        <p>The museum card gives you easy access to reviews of both the exhibition and the guide.</p>
         <p>Check out the museum's ongoing exhibitions and have a sneak peek into who the exhibition guides are.</p>
       </div>
       <div className={meetTheAppStyles['meet-the-app__images-container']}>
-        <ImageView className={meetTheAppStyles['meet-the-app__test']} image={animated3} imageAltText="Meet the App" imageDisplay={ImageDisplay.inline}/>
-        <ImageView className={meetTheAppStyles['meet-the-app__test']} image={still3} imageAltText="Meet the App" imageDisplay={ImageDisplay.inline}/>
+        <ImageView className={meetTheAppStyles['meet-the-app__test']} image={animated3} imageAltText="Meet the App" imageDisplay={ImageDisplay.inline} />
+        <ImageView className={meetTheAppStyles['meet-the-app__test']} image={still3} imageAltText="Meet the App" imageDisplay={ImageDisplay.inline} />
       </div>
       <div className={`${contentStyles['content__double-col-left']} ${meetTheAppStyles['meet-the-app__section-details']}`}>
         <h1>Make your museum visit more meaningful</h1>
         <p>Discover hidden stories about the art works, the artist and more with a guide that speaks to you.</p>
       </div>
       <div className={meetTheAppStyles['meet-the-app__images-container']}>
-        <ImageView className={meetTheAppStyles['meet-the-app__test']} image={animated4} imageAltText="Meet the App" imageDisplay={ImageDisplay.inline}/>
-        <ImageView className={meetTheAppStyles['meet-the-app__test']} image={still4} imageAltText="Meet the App" imageDisplay={ImageDisplay.inline}/>
+        <ImageView className={meetTheAppStyles['meet-the-app__test']} image={animated4} imageAltText="Meet the App" imageDisplay={ImageDisplay.inline} />
+        <ImageView className={meetTheAppStyles['meet-the-app__test']} image={still4} imageAltText="Meet the App" imageDisplay={ImageDisplay.inline} />
       </div>
       <p className={meetTheAppStyles['meet-the-app__images-description']}><b>“The info about the guides is what makes the app different than other event apps!”</b> - Participant Alice</p>
       <div className={`${contentStyles['content__double-col-left']} ${meetTheAppStyles['meet-the-app__section-details']}`}>
@@ -65,8 +65,8 @@ const MeetTheApp = (): JSX.Element => {
         <p>Access your ticket offline, receive notifications two hours before your visit, and see what the weather will be like on your way to the museum.</p>
       </div>
       <div className={meetTheAppStyles['meet-the-app__images-container']}>
-        <ImageView className={meetTheAppStyles['meet-the-app__test']} image={animated5} imageAltText="Meet the App" imageDisplay={ImageDisplay.inline}/>
-        <ImageView className={meetTheAppStyles['meet-the-app__test']} image={still5} imageAltText="Meet the App" imageDisplay={ImageDisplay.inline}/>
+        <ImageView className={meetTheAppStyles['meet-the-app__test']} image={animated5} imageAltText="Meet the App" imageDisplay={ImageDisplay.inline} />
+        <ImageView className={meetTheAppStyles['meet-the-app__test']} image={still5} imageAltText="Meet the App" imageDisplay={ImageDisplay.inline} />
       </div>
     </>
   )

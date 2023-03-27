@@ -1,0 +1,28 @@
+.empathize__col h1 {
+  margin-bottom: 12px;
+  font-size: 22px;
+}
+
+.empathize__col h1:last-of-type {
+  margin-bottom: 12px;
+  margin-top: 38px;
+  font-size: 22px;
+}
+
+.empathize__col a:hover {
+  text-decoration: underline;
+}
+
+.profile img,
+.confetti img {
+  max-height: 630px;
+  margin-top: 48px;
+}
+
+.profile {
+  margin-left: 68px;
+}
+
+.confetti {
+  margin-left: 200px;
+}

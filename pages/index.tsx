@@ -8,7 +8,8 @@ import caseStudyPhone2 from '../public/assets/images/content/index/case_study_ph
 import giftdPhone from '../public/assets/images/giftd/giftd-intro.gif';
 import giftdPhoneMessages from '../public/assets/images/giftd/giftd-phone-messages.svg';
 import Navigation from '../components/Navigation/Navigation';
-
+import confettiIntro from '../public/assets/images/giftd-progress-bar/confetti-intro.gif';
+import progressCard from '../public/assets/images/giftd-progress-bar/progress-card.png';
 
 const Index = (): JSX.Element => {
   return (
@@ -27,7 +28,25 @@ const Index = (): JSX.Element => {
           <div className={indexStyles['index__content__folder-content']}>
             <div className={indexStyles['index__content__folder-content__details']}>
               <p>Giftd</p>
-              <p>UX/UI | INTERNSHIP </p>
+              <p>UX/UI | GREEN TECH I SHIPPED</p>
+              <p>How might we connect users emotionally to their CO2e impact towards carbon emissions reduction?</p>
+              <div className={indexStyles['index__content__folder-content__details__button']}>
+                <a href='/progress-bar'>Read Case Study</a>
+              </div>
+            </div>
+            {/* <div className={indexStyles['index__content__folder-content__phone-still__giftd']}> */}
+            <ImageView className={indexStyles['giftd-confetti']} image={confettiIntro} imageAltText="Case Study Phone" />
+            <ImageView className={indexStyles['giftd-progress-bar']} image={progressCard} imageAltText="Case Study Phone" />
+            {/* </div> */}
+          </div>
+        </div>
+
+        <div className={indexStyles['case-studies']}>
+          <div className={indexStyles['folder-tab']}></div>
+          <div className={indexStyles['index__content__folder-content']}>
+            <div className={indexStyles['index__content__folder-content__details']}>
+              <p>Giftd</p>
+              <p>UX/UI</p>
               <p>How might we improve the app experience and impact the number of people joining and making clothes transactions?</p>
               <div className={indexStyles['index__content__folder-content__details__button']}>
                 <a href='/giftd'>Read Case Study</a>

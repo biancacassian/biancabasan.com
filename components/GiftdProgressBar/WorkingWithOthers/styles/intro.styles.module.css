@@ -1,0 +1,27 @@
+.empathize__col h1 {
+  margin-bottom: 12px;
+  font-size: 22px;
+}
+
+.empathize__col h1:last-of-type {
+  margin-bottom: 12px;
+  margin-top: 38px;
+  font-size: 22px;
+}
+
+.empathize__col a:hover {
+  text-decoration: underline;
+}
+
+.percentage {
+  font-size: 90px;
+  font-weight: 600;
+}
+
+.bullet-list li {
+  margin-bottom: 16px;
+}
+
+.ideate {
+  margin-top: 40px;
+}

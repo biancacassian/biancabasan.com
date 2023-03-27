@@ -126,6 +126,17 @@
   height: 100%;
 } */
 
+.giftd-confetti {
+  margin-top: 40px;
+  grid-column: 6 / 9;
+  max-width: 90%;
+}
+
+.giftd-progress-bar {
+  margin-top: 50%;
+  grid-column: 9 / 12;
+}
+
 .giftd-phone-messages {
   max-width: 90%;
   grid-column: 6 / 10;
