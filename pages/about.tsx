@@ -1,9 +1,11 @@
 import ImageView from '../components/ImageView/ImageView';
 import biancaLarge from '../public/assets/images/content/about/bianca-large.png';
 import biancaSmall from '../public/assets/images/content/about/bianca-small.png';
+import teamJam from '../public/assets/images/content/about/team-jam.png';
 import ContentView from '../components/ContentView/ContentView';
 import aboutStyles from './styles/about.styles.module.css';
 import Navigation from '../components/Navigation/Navigation';
+import { ImageDisplay } from '../components/ImageView/interfaces';
 
 const About = (): JSX.Element => {
   return (
@@ -30,10 +32,10 @@ const About = (): JSX.Element => {
             <div className={aboutStyles['about__border']} />
             <h1 className={aboutStyles['about__col-left']}>Learning</h1>
             <div className={aboutStyles['about__col-right']}>
-              <p>Always be learning and working hard on cultivating a growth mindset</p>
-              <p>Storytelling</p>
-              <p>Practicing Fundamentals of design</p>
+              <p>I am getting my hands on <b>design systems</b> and learning about <b>how to incorporate sustainability within the design process.</b></p>
+              <p>Getting out of my comfort zone and <b>solving a problem using design thinking alongside amazing designers for 48 hours was an incredible experience.</b></p>
             </div>
+            <ImageView image={teamJam} imageAltText="Bianca" imageDisplay={ImageDisplay.full} imageDescription={"Team Ice spice at the Service Design Jam - Berlin Hackathon, March 2023"} />
             <div className={aboutStyles['about__border']} />
             <h1 className={aboutStyles['about__col-left']}>I'm keeping an eye on this digital product</h1>
             <div className={aboutStyles['about__col-right']}>

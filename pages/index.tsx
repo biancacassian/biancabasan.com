@@ -29,7 +29,7 @@ const Index = (): JSX.Element => {
             <div className={indexStyles['index__content__folder-content__details']}>
               <p>Giftd</p>
               <p>UX/UI | GREEN TECH I SHIPPED</p>
-              <p>How might we connect users emotionally to their CO2e impact towards carbon emissions reduction?</p>
+              <p>How might we create an emotional connection for users as they work towards reducing their CO2e footprint?</p>
               <div className={indexStyles['index__content__folder-content__details__button']}>
                 <a href='/progress-bar'>Read Case Study</a>
               </div>
@@ -46,7 +46,7 @@ const Index = (): JSX.Element => {
           <div className={indexStyles['index__content__folder-content']}>
             <div className={indexStyles['index__content__folder-content__details']}>
               <p>Giftd</p>
-              <p>UX/UI</p>
+              <p>UX/UI | GREEN TECH I SHIPPED</p>
               <p>How might we improve the app experience and impact the number of people joining and making clothes transactions?</p>
               <div className={indexStyles['index__content__folder-content__details__button']}>
                 <a href='/giftd'>Read Case Study</a>

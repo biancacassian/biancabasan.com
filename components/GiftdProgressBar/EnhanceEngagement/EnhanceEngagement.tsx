@@ -11,7 +11,7 @@ const EnhanceEngagement = (): JSX.Element => {
         <>
             <h1 className={contentStyles['content__double-col-left']}>How can design and psychology be used in a progress bar?</h1>
             <div className={`${contentStyles['content__double-col-right']} ${empathizeStyles['empathize__col']}`}>
-                <p>In addition to visually representing top users with a badge, we also implemented a progress bar for users to track their own progress. This <b>progress bar is linked to users' motivation to show and contribute towards reducing CO2e emissions, while also allowing them to see how their friends are contributing to the cause.</b></p>
+                <p>In addition to visually representing top users with a badge, we also implemented a progress bar for users to track their own progress and that of their community. <b>The progress bar is linked to users' motivation to show and contribute towards reducing CO2e emissions, while also allowing them to see how their friends are contributing to the cause.</b></p>
             </div>
             <div className={`${contentStyles['content__double-col-left']}`}>
                 <p><b>Short term rewards and Goal gradient effect</b></p>
@@ -20,12 +20,12 @@ const EnhanceEngagement = (): JSX.Element => {
             <ImageView className={empathizeStyles['gifs']} image={confettiIntro} imageAltText="Filters" imageDisplay={ImageDisplay.inline} />
             <div className={`${contentStyles['content__double-col-left']}`}>
                 <p><b>Community Impact</b></p>
-                <p>The Community Impact Screen is where users can track their own progress and that of their community, while also providing invitations that grant one month of free reservations.</p>
+                <p>The Community Impact Screen is where users can track their own progress and that of their community towards CO2e reduction, while also offering invitations that grant one month of free reservations.</p>
             </div>
             <ImageView className={empathizeStyles['gifs']} image={confetti} imageAltText="Filters" imageDisplay={ImageDisplay.inline} />
             <div className={`${contentStyles['content__double-col-left']}`}>
                 <p><b>Metaphors vs. numbers or “People remember stories better than facts alone”</b></p>
-                <p>We aimed to make the experience of observing and monitoring your impact enjoyable as well, so we came up with the idea of incorporating a visual element. Specifically, <b>we utilize the metaphor of an empty human icon that gradually fills up as you make progress.</b></p>
+                <p>We aimed to make the experience of observing and monitoring your impact enjoyable, so we came up with the idea to use an empty human icon that gradually fills up as you make progress</p>
             </div>
             <ImageView className={empathizeStyles['gifs']} image={progressBar} imageAltText="Filters" imageDisplay={ImageDisplay.inline} />
             <h1 className={contentStyles['content__double-col-left']}>With a progress bar, are we encouraging bad behavior? And if yes, how can we prevent it?</h1>
@@ -46,7 +46,7 @@ const EnhanceEngagement = (): JSX.Element => {
             </div>
             <h1 className={contentStyles['content__double-col-left']}>Impact</h1>
             <div className={`${contentStyles['content__double-col-right']} ${empathizeStyles['empathize__col']}`}>
-                <p><b>Through close collaboration with the founder, developer, and marketing team, I designed an experience that tracks users' CO2e impact and provides a clear visual representation of their progress and that of their friends.</b> Our aim is to make it easy and fun for users to see how they contribute to the community of gifting and to GIFTD's mission.</p>
+                <p>Through close collaboration with the founder, developer, and marketing team, <b>I designed an experience that shows users how through gifting clothes, they and their community are progressing towards CO2e neutrality.</b></p>
             </div>
         </>
     )

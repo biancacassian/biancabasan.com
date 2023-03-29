@@ -16,10 +16,10 @@ const ResearchAndInfo = (): JSX.Element => {
             <h1 className={contentStyles['content__double-col-left']}>I was really excited to have the opportunity to brainstorm the Hook Model</h1>
             <div className={`${contentStyles['content__double-col-right']} ${empathizeStyles['empathize__col']}`}>
                 <p>As a designer, I am fascinated by the intersection of psychology and design, and the potential it holds for creating truly engaging experiences. <b>My curiosity led me to dive deep into the psychology of motivation and engagement which led me to discover the Hook Model, a framework for creating habit-forming products that consists of four steps.</b></p>
-                <p>I was really excited to have the opportunity to brainstorm the Hook Model with the founder and developer.</p>
+                <p>I was thrilled to brainstorm ideas using the Hook Model framework with the founder and developer.</p>
                 <p>As we explored the four steps, <b>we focused on understanding what rewards primary users desire and how we can design to meet those needs.</b> We also considered how the rewards are linked to the impact primary users want to see on GIFTD.</p>
+                <p><b>From the brainstorm session we learned:</b></p>
             </div>
-            <h1 className={contentStyles['content__double-col-left']}>From the brainstorm session we learned:</h1>
             <div className={`${contentStyles['content__double-col-right']} ${empathizeStyles['square-col']}`}>
                 <div className={empathizeStyles['square']}>
                     <p>01. Gamification elements can be used to enhance engagement</p>

@@ -28,7 +28,7 @@ const GiftdCaseStudy = (): JSX.Element => {
                 <ProjectOverview />
             </ContentView>
         </Folder>
-        <Folder header="Research">
+        <Folder header="Discover the Issue">
             <ContentView>
                 <ResearchAndInfo />
             </ContentView>
@@ -38,12 +38,12 @@ const GiftdCaseStudy = (): JSX.Element => {
                 <SuperUser />
             </ContentView>
         </Folder>
-        <Folder header="Working With Others">
+        <Folder header="Joining Forces">
             <ContentView>
                 <WorkingWithOthers />
             </ContentView>
         </Folder>
-        <Folder header="Introducing Your Carbon Emission Impact">
+        <Folder header="Introducing Community Impact">
             <ContentView>
                 <EnhanceEngagement />
             </ContentView>

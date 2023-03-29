@@ -11,7 +11,7 @@ const SuperUser = (): JSX.Element => {
                 <p>What we learned:</p>
                 <p className={`${empathizeStyles['percentage']}`}>90%</p>
                 <p>Our users are most incentivized by their environmental impact</p>
-                <p>Our users are less interested in seeing how friends of friends are making an impact</p>
+                <p>Our users want to see the wider community impact they have by inviting others</p>
                 <p className={`${empathizeStyles['percentage']}`}>10%</p>
                 <p>Our users are less interested in seeing how friends of friends are making an impact</p>
             </div>
