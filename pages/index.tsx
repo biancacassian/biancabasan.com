@@ -9,7 +9,7 @@ import giftdPhone from '../public/assets/images/giftd/giftd-intro.gif';
 import giftdPhoneMessages from '../public/assets/images/giftd/giftd-phone-messages.svg';
 import Navigation from '../components/Navigation/Navigation';
 import confettiIntro from '../public/assets/images/giftd-progress-bar/confetti-intro.gif';
-import progressCard from '../public/assets/images/giftd-progress-bar/progress-card.png';
+import progressCard from '../public/assets/images/giftd-progress-bar/progress-card.svg';
 
 const Index = (): JSX.Element => {
   return (

@@ -21,7 +21,7 @@ const ProjectOverview = (): JSX.Element => {
             <h1 className={contentStyles['content__double-col-left']}>Problem</h1>
             <div className={`${contentStyles['content__double-col-right']} ${empathizeStyles['empathize__col']}`}>
                 <p>As a part of Giftd's roadmap, <b>I was tasked with designing a feature that would not only enhance user engagement but also make them invested and interested in Giftd's mission.</b></p>
-                <p>The problem we were trying to solve was how to connect users to Giftd mission while celebrating the top <b>3-4% of engaged users with the greatest impact?</b></p>
+                <p>The problem we were trying to solve was <b>how to connect users to Giftd mission while celebrating the top 3-4% of engaged users with the greatest impact?</b></p>
             </div>
             <h1 className={contentStyles['content__double-col-left']}>Impact</h1>
             <div className={`${contentStyles['content__double-col-right']} ${empathizeStyles['empathize__col']}`}>

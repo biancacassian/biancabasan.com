@@ -33,7 +33,7 @@ const GiftdCaseStudy = (): JSX.Element => {
                 <ResearchAndInfo />
             </ContentView>
         </Folder>
-        <Folder header="GIFTD Super User">
+        <Folder header="GIFTD Super Users">
             <ContentView>
                 <SuperUser />
             </ContentView>
