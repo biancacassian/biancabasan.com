@@ -3,12 +3,19 @@ import ImageView from '../../ImageView/ImageView';
 import { ImageDisplay } from '../../ImageView/interfaces';
 import empathizeStyles from './styles/intro.styles.module.css';
 import userIcon from '../../../public/assets/images/giftd-progress-bar/user-icon.svg'
+import Image from 'next/image';
+
+const customLoader = ({ src }: any) => {
+    return src
+}
 
 const SuperUser = (): JSX.Element => {
     return (
         <>
-            <h1 className={contentStyles['content__double-col-left']}>“I want to see my impact on contributing to the growing community of gifting”</h1>
-            <ImageView className={empathizeStyles['user-icon']} image={userIcon} imageAltText="Filters" imageDisplay={ImageDisplay.full} />
+            <div className={contentStyles['content__double-col-left']}>
+                <Image loader={customLoader} src={userIcon} alt={'user icon'} />
+                <h1>“I want to see my impact on contributing to the growing community of gifting”</h1>
+            </div>
             <div className={`${contentStyles['content__double-col-right']} ${empathizeStyles['empathize__col']}`}>
                 <p>Through our use of the Hook Model and previous user research, we developed <b>3 assumptions</b> about what is important to users in terms of seeing progress and the impact they want to have as ambassadors.</p>
                 <p><b>Although these assumptions were based on data from previous research, we decided to validate them with our primary users</b> before beginning the design process.</p>

@@ -21,8 +21,3 @@
 .bullet-list li {
   margin-bottom: 16px;
 }
-
-.user-icon {
-  margin-top: 16px;
-  grid-column: 5 / 8;
-}
