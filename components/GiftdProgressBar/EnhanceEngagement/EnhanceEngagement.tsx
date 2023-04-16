@@ -21,6 +21,7 @@ const EnhanceEngagement = (): JSX.Element => {
             <div className={`${contentStyles['content__double-col-left']}`}>
                 <p><b>Community Impact</b></p>
                 <p>The Community Impact Screen is where users can track their own progress and that of their community towards CO2e reduction, while also offering invitations that grant one month of free reservations.</p>
+                <p>The Community Impact screen may also serve as an entry-point for an action, such as “ Invite more people”.</p>
             </div>
             <ImageView className={empathizeStyles['gifs']} image={confetti} imageAltText="Filters" imageDisplay={ImageDisplay.inline} />
             <div className={`${contentStyles['content__double-col-left']}`}>

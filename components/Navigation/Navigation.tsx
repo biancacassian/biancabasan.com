@@ -22,6 +22,11 @@ const Navigation = ({ className }: NavigationProps): JSX.Element => {
           </Link>
         </div> */}
         <div className={navigationStyles['navigation__item']}>
+          <Link href="https://substack.com/profile/8410069-bianca-basan">
+            <a target='_blank'>Writings</a>
+          </Link>
+        </div>
+        <div className={navigationStyles['navigation__item']}>
           <Link href="/about">
             <a>About</a>
           </Link>

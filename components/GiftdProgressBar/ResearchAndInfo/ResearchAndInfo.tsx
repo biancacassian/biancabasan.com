@@ -10,12 +10,13 @@ const ResearchAndInfo = (): JSX.Element => {
         <>
             <h1 className={contentStyles['content__double-col-left']}>How can we celebrate the top 3-4% of engaged users with the greatest impact?</h1>
             <div className={`${contentStyles['content__double-col-right']} ${empathizeStyles['empathize__col']}`}>
-                <p>As a first step I asked the founder clarifying questions: What are we trying to solve with this feature? What is the user goal? <b>What value are we providing to users and to the product by building this feature?</b></p>
+                <p>To kick start the design process, I first looked into how other companies approach impact, particularly looking at how they communicate numbers and encourage engagement.</p>
+                <p>In parallel, I also had a conversation with the founder to clarify: <b>What are we trying to solve with this feature? What is the user goal? What value are we providing to users and to the product by building this feature?</b></p>
                 <p>From the conversation I’ve identified the desired outcome with the feature, which is to <b>enhance user engagement, for both primary and secondary users, while celebrating the top 3-4% engaged users with the greatest impact.</b></p>
             </div>
             <h1 className={contentStyles['content__double-col-left']}>I was really excited to have the opportunity to brainstorm the Hook Model</h1>
             <div className={`${contentStyles['content__double-col-right']} ${empathizeStyles['empathize__col']}`}>
-                <p>As a designer, I am fascinated by the intersection of psychology and design, and the potential it holds for creating truly engaging experiences. <b>My curiosity led me to dive deep into the psychology of motivation and engagement which led me to discover the Hook Model, a framework for creating habit-forming products that consists of four steps.</b></p>
+                <p><b>My curiosity led me to dive deep into the psychology of motivation and engagement which led me to discover the Hook Model</b>, a framework for creating habit-forming products that consists of four steps.</p>
                 <p>I was thrilled to brainstorm ideas using the Hook Model framework with the founder and developer.</p>
                 <p>As we explored the four steps, <b>we focused on understanding what rewards primary users desire and how we can design to meet those needs.</b> We also considered how the rewards are linked to the impact primary users want to see on GIFTD.</p>
                 <p><b>From the brainstorm session we learned:</b></p>
