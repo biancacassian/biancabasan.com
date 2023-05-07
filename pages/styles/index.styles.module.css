@@ -29,6 +29,7 @@
 
 .index__content__welcome-message p:nth-child(2) {
   margin-bottom: 0;
+  padding-bottom: 30px;
 }
 
 .index__content__case-studies-title {
