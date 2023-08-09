@@ -132,9 +132,8 @@ const EnhanceEngagement = (): JSX.Element => {
           more efficient collaboration.
         </p>
         <p>
-          <b>2.</b> Users reach out expressing joy in seeing and having the
-          feature / users started expressing their delight in the newly
-          introduced feature. Their positive feedback underscored the success of
+          <b>2.</b> Users started expressing their delight in the newly
+          introduced feature. Their positive feedback highlighted the success of
           our efforts in creating an engaging and meaningful user experience.
         </p>
       </div>

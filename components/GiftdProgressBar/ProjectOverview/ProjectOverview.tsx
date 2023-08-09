@@ -63,9 +63,9 @@ const ProjectOverview = (): JSX.Element => {
         <p>
           As the sole designer, I took the lead in driving the entire project
           from its initial idea to the final hand-off. Working closely with the
-          cross-functional team, I stayed closely connected with users through
-          thorough research and facilitated alignment and feature discovery
-          workshop using different methodologies.
+          product owner, developer and marketing I facilitated alignment and
+          feature discovery workshop using different methodologies. As well as
+          staying closely connected with users through thorough research.
         </p>
       </div>
       <ImageView

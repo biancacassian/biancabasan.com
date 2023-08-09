@@ -18,18 +18,23 @@ const ResearchAndInfo = (): JSX.Element => {
         </p>
         <p>
           Simultaneously, I discussed with the founder to define the feature's
-          purpose and user value. The goal emerged: to boost engagement for
-          primary and secondary users, celebrating the top 3-4% engaged users
-          making the greatest impact.
+          purpose and the and the value it would bring to users. The goal
+          emerged: to boost engagement for primary and secondary users,
+          celebrating the top 3-4% engaged users making the greatest impact.
         </p>
       </div>
       <h1 className={contentStyles['content__double-col-left']}>
-        I was really excited to have the opportunity to brainstorm the Hook
-        Model
+        Using the Hook Model framework to brainstorm about the habit we aim to
+        enhance
       </h1>
       <div
         className={`${contentStyles['content__double-col-right']} ${empathizeStyles['empathize__col']}`}
       >
+        <p>
+          I took the lead in exploring the psychology of motivation and
+          engagement, which eventually led me to discover the Hook Model— a
+          framework for creating habit-forming products in four steps.
+        </p>
         <p>
           Excited about the framework, I led a brainstorming session with the
           founder and developer, using the Hook Model to generate feature ideas.
