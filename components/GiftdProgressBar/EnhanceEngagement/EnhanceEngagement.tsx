@@ -151,6 +151,27 @@ const EnhanceEngagement = (): JSX.Element => {
           prompting us to reevaluate our approach.
         </p>
       </div>
+      <h1 className={contentStyles['content__double-col-left']}>
+        Reflecting on this journey
+      </h1>
+      <div
+        className={`${contentStyles['content__double-col-right']} ${empathizeStyles['empathize__col']}`}
+      >
+        <p>
+          Not to be precious with my first ideas, we went through a couple of
+          iterations, and I really appreciated how through different viewpoints
+          and feedback, we arrived at the best design solution for the launch.
+        </p>
+        <p>
+          Even when assumptions seem solid, the real value comes from validating
+          them with our users.
+        </p>
+        <p>
+          Through this project I've come to understand the importance of testing
+          designs on real devices, particularly actual phones, before finalizing
+          the product.
+        </p>
+      </div>
     </>
   );
 };
