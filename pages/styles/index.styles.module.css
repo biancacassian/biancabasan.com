@@ -175,7 +175,7 @@
 
 .index__content__divider {
   grid-column: span 12;
-  margin-top: 176px;
+  margin-top: 80px;
 }
 
 .e-mail:before {
@@ -216,4 +216,62 @@
   grid-column: span 2;
   height: 58px;
   margin-top: 36px;
+}
+
+.index__testimonial__container {
+  display: flex;
+  flex-direction: column;
+  grid-column: span 12;
+  margin-bottom: 80px;
+}
+
+.index__testimonial {
+  margin-top: 80px;
+  display: flex;
+}
+
+.index__testimonial__person {
+  flex: 1;
+  padding-left: 14px;
+}
+
+.index__testimonial__person__details {
+  display: flex;
+}
+
+.index__testimonial__person__details__image {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.index__testimonial__person__details__info p {
+  margin: 0;
+  margin-left: 12px;
+  padding: 0;
+  line-height: 22px;
+}
+
+.index__testimonial__person__details__info p:first-child {
+  margin-top:  18px;
+}
+
+.index__testimonial__person__details__info p:nth-child(2) {
+  color: #717171;
+}
+
+.index__testimonial__text {
+  flex: 1;
+}
+
+.index__testimonial__text__content {
+  margin-top:  18px;
+  max-width: 600px;
+  margin-top:  18px;
+}
+
+.index__testimonial__text__content p { 
+  line-height: 24px;
+  font-weight: 400;
 }
