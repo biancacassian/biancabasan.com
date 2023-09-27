@@ -1,3 +1,4 @@
+import contentStyles from '../components/ContentView/styles/content.styles.module.css';
 import ImageView from '../components/ImageView/ImageView';
 import Navigation from '../components/Navigation/Navigation';
 import bianca from '../public/assets/images/content/index/bianca.png';
@@ -162,7 +163,11 @@ const Index = (): JSX.Element => {
           </div>
         </div>
 
-        <div className={indexStyles['index__content__divider']}>
+        <div className={indexStyles['index__testimonial__title']}>
+          <p>Kind words from collaborator</p>
+        </div>
+
+        <div className={indexStyles['index__content__divider__first']}>
           <hr />
         </div>
 
@@ -309,7 +314,7 @@ const Index = (): JSX.Element => {
             <hr />
           </div>
         </div>
-        {/* <div
+        <div
           className={`${contentStyles['content__double-col-left']} ${indexStyles['contact']}`}
         >
           <p>Let's cross paths!</p>
@@ -325,7 +330,7 @@ const Index = (): JSX.Element => {
             data-website="moc.liamg"
           ></a>
           <p>I’d love to hear from you!</p>
-        </div> */}
+        </div>
       </div>
     </div>
   );

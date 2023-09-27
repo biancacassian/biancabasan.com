@@ -178,6 +178,11 @@
   margin-top: 80px;
 }
 
+.index__content__divider__first {
+  grid-column: span 12;
+  margin-top: 20px;
+}
+
 .e-mail:before {
   content: attr(data-website) "\0040" attr(data-user);
   unicode-bidi: bidi-override;
@@ -222,7 +227,15 @@
   display: flex;
   flex-direction: column;
   grid-column: span 12;
-  margin-bottom: 80px;
+}
+
+.index__testimonial__title {
+  grid-column: span 12;
+  margin-top: 80px;
+}
+
+.index__testimonial__title p {
+  font-size: 34px;
 }
 
 .index__testimonial {
