@@ -164,7 +164,7 @@ const Index = (): JSX.Element => {
         </div>
 
         <div className={indexStyles['index__testimonial__title']}>
-          <p>Kind words from collaborator</p>
+          <p>Kind words from collaborators</p>
         </div>
 
         <div className={indexStyles['index__content__divider__first']}>
