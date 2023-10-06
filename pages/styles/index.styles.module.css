@@ -147,8 +147,8 @@
 }
 
 .giftd-phone {
-  max-width: 90%;
-  grid-column: 9 / 12;
+  max-width: 85%;
+  grid-column: 7 / 13;
   grid-row: 1 / 2;
   margin-top: 40px;
 }
