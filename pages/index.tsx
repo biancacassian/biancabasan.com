@@ -1,7 +1,6 @@
 import contentStyles from '../components/ContentView/styles/content.styles.module.css';
 import ImageView from '../components/ImageView/ImageView';
 import Navigation from '../components/Navigation/Navigation';
-import bianca from '../public/assets/images/content/index/bianca.png';
 import caseStudyPhone1 from '../public/assets/images/content/index/case_study_phone1.png';
 import caseStudyPhone2 from '../public/assets/images/content/index/case_study_phone2.gif';
 import caseStudyShapes from '../public/assets/images/content/index/case_study_shapes.svg';
@@ -19,18 +18,40 @@ const Index = (): JSX.Element => {
     <div className={indexStyles.index}>
       <Navigation />
       <div className={indexStyles['index__content']}>
-        <ImageView
+        {/* <ImageView
           className={indexStyles['index__content__image']}
           image={bianca}
           imageAltText="Bianca Name"
-        />
+        /> */}
         <div className={indexStyles['index__content__welcome-message']}>
+          <div>
+            <span
+              className={indexStyles['index__content__welcome-message__text']}
+            >
+              <pre></pre>Hello, I'm a growth oriented UX designer with a focus
+              on{' '}
+              <b>
+                end-to-end product design solutions, thriving on collaboration
+                and co-creation
+              </b>
+            </span>
+            <img src={'/assets/images/content/index/inline-img.png'} />
+            <span
+              className={indexStyles['index__content__welcome-message__text']}
+            >
+              . I care about creating experiences that not only elevate
+              businesses and benefit people but also contribute positively to
+              our planet.
+            </span>
+          </div>
+        </div>
+        {/* <div className={indexStyles['index__content__welcome-message']}>
           <p>Hello, I'm a growth oriented UX/UI designer based in Berlin.</p>
           <p>
             I care about crafting experiences that benefit people, businesses
             and our planet.
           </p>
-        </div>
+        </div> */}
         <h1 className={indexStyles['index__content__case-studies-title']}>
           Case Studies
         </h1>
@@ -164,7 +185,7 @@ const Index = (): JSX.Element => {
         </div>
 
         <div className={indexStyles['index__testimonial__title']}>
-          <p>Kind words from collaborator</p>
+          <p>Kind words from collaborators</p>
         </div>
 
         <div className={indexStyles['index__content__divider__first']}>

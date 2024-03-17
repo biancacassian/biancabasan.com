@@ -17,19 +17,40 @@
 .index__content__welcome-message {
   display: flex;
   flex-direction: column;
-  grid-column: 9 / 13;
+  grid-column: 1 / 13;
   justify-content: end;
+  margin-top: 120px;
+
 }
 
-.index__content__welcome-message p {
+.index__content__welcome-message__text {
   font-family: 'Space Grotesk';
-  font-size: 21px;
+  font-size: 28px;
   font-weight: 400;
+  line-height: 60px;
+}
+
+.index__content__welcome-message__text pre {
+  margin-left: 400px;
+  display: inline-block;
+}
+
+.index__content__welcome-message__text__first {
+  margin: 0;
+  padding: 0;
+  text-indent: 20px;
 }
 
 .index__content__welcome-message p:nth-child(2) {
   margin-bottom: 0;
   padding-bottom: 30px;
+}
+
+.index__content__welcome-message img {
+  width: auto;
+  height: 80px;
+  margin: -40px 12px 0 12px;
+  transform: translateY(32px);
 }
 
 .index__content__case-studies-title {
@@ -38,8 +59,8 @@
   font-weight: 400;
   grid-column: span 2;
   grid-row: 2;
-  line-height: 58px;
-  margin-top: 184px;
+  line-height: 42px;
+  margin-top: 180px;
 }
 
 .index__content__folder-content {
@@ -131,11 +152,13 @@
   margin-top: 40px;
   grid-column: 6 / 9;
   max-width: 90%;
+  transform: translateX(40px);
 }
 
 .giftd-progress-bar {
   margin-top: 50%;
   grid-column: 9 / 12;
+  transform: translateX(40px);
 }
 
 .giftd-phone-messages {
