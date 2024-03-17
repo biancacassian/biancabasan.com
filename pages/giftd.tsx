@@ -12,7 +12,7 @@ import Filters from "../components/Giftd/Filters/Filters";
 import Delivery from '../components/Giftd/Delivery/Delivery';
 import Discovery from '../components/Giftd/Discovery/Discovery';
 import WorkingWithOthers from '../components/Giftd/WorkingWithOthers/WorkingWithOthers';
-import hero from '../public/assets/images/giftd/hero.jpg';
+import hero from '../public/assets/images/giftd/new-hero.png';
 
 const GiftdCaseStudy = (): JSX.Element => {
     const router = useRouter()

@@ -9,7 +9,7 @@ import hannah from '../public/assets/images/content/index/hannah.jpg';
 import jana from '../public/assets/images/content/index/jana.jpg';
 import confettiIntro from '../public/assets/images/giftd-progress-bar/confetti-intro.gif';
 import progressCard from '../public/assets/images/giftd-progress-bar/progress-card.svg';
-import giftdPhone from '../public/assets/images/giftd/giftd-intro.gif';
+import giftdPhone from '../public/assets/images/giftd/giftd-intro-new.png';
 import giftdPhoneMessages from '../public/assets/images/giftd/giftd-phone-messages.svg';
 import indexStyles from './styles/index.styles.module.css';
 
@@ -112,11 +112,11 @@ const Index = (): JSX.Element => {
               </div>
             </div>
             {/* <div className={indexStyles['index__content__folder-content__phone-still__giftd']}> */}
-            <ImageView
+            {/* <ImageView
               className={indexStyles['giftd-phone-messages']}
               image={giftdPhoneMessages}
               imageAltText="Case Study Phone"
-            />
+            /> */}
             <ImageView
               className={indexStyles['giftd-phone']}
               image={giftdPhone}
