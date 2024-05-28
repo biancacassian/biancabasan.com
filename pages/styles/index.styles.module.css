@@ -77,6 +77,18 @@
   /* align-items: end; */
 }
 
+.index__content__folder-content__giftd {
+  column-gap: 8px;
+  background-color: #ebe7e3;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  border-bottom-left-radius: 12px;
+  grid-column: span 12;
+  height: auto;
+}
+
 .index__content__folder-content__details {
   grid-column: 1 / 6;
   margin-top: 64px;
@@ -149,10 +161,11 @@
 } */
 
 .giftd-confetti {
-  margin-top: 40px;
-  grid-column: 6 / 9;
-  max-width: 90%;
-  transform: translateX(40px);
+  /* margin-top: 40px; */
+  grid-column: 7 / 13;
+
+  /* max-width: 100%; */
+  /* transform: translateX(40px); */
 }
 
 .giftd-progress-bar {

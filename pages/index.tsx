@@ -7,10 +7,8 @@ import caseStudyShapes from '../public/assets/images/content/index/case_study_sh
 import cassandra from '../public/assets/images/content/index/cassandra.jpg';
 import hannah from '../public/assets/images/content/index/hannah.jpg';
 import jana from '../public/assets/images/content/index/jana.jpg';
-import confettiIntro from '../public/assets/images/giftd-progress-bar/confetti-intro.gif';
-import progressCard from '../public/assets/images/giftd-progress-bar/progress-card.svg';
+import confetti from '../public/assets/images/giftd-progress-bar/confetti.png';
 import giftdPhone from '../public/assets/images/giftd/giftd-intro-new.png';
-import giftdPhoneMessages from '../public/assets/images/giftd/giftd-phone-messages.svg';
 import indexStyles from './styles/index.styles.module.css';
 
 const Index = (): JSX.Element => {
@@ -58,7 +56,7 @@ const Index = (): JSX.Element => {
 
         <div className={indexStyles['case-studies']}>
           <div className={indexStyles['folder-tab']}></div>
-          <div className={indexStyles['index__content__folder-content']}>
+          <div className={indexStyles['index__content__folder-content__giftd']}>
             <div
               className={indexStyles['index__content__folder-content__details']}
             >
@@ -79,14 +77,14 @@ const Index = (): JSX.Element => {
             {/* <div className={indexStyles['index__content__folder-content__phone-still__giftd']}> */}
             <ImageView
               className={indexStyles['giftd-confetti']}
-              image={confettiIntro}
+              image={confetti}
               imageAltText="Case Study Phone"
             />
-            <ImageView
+            {/* <ImageView
               className={indexStyles['giftd-progress-bar']}
               image={progressCard}
               imageAltText="Case Study Phone"
-            />
+            /> */}
             {/* </div> */}
           </div>
         </div>
