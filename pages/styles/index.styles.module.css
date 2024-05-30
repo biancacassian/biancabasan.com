@@ -86,7 +86,7 @@
   grid-template-columns: repeat(12, 1fr);
   border-bottom-left-radius: 12px;
   grid-column: span 12;
-  height: auto;
+  height: calc(100% - 3px);
 }
 
 .index__content__folder-content__details {
