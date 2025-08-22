@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Hand Draw — Webcam Canvas</title>
+		<link rel="stylesheet" href="./style.css">
+		<!-- MediaPipe libraries -->
+		<script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" defer></script>
+		<script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" defer></script>
+		<script src="./app.js" type="module" defer></script>
+	</head>
+	<body>
+		<video id="webcam" playsinline muted></video>
+		<canvas id="draw"></canvas>
+
+		<div id="overlay">
+			<div class="panel">
+				<h1>Hand Draw</h1>
+				<p>Allow webcam access, then point your index finger to draw.</p>
+				<ul>
+					<li>Move your index finger to draw</li>
+					<li>Press <kbd>C</kbd> to clear</li>
+					<li>Press <kbd>H</kbd> to toggle this help</li>
+				</ul>
+				<button id="dismiss">Got it</button>
+			</div>
+		</div>
+	</body>
+</html>
